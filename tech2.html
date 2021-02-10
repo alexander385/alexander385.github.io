@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
+}
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
+}
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 1.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: fade;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+</style>
+<html lang="en">
+  <head>
+    <title>Square - Free Bootstrap 4 Template by Colorlib</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html"><span>FrankikoProjects.</span></a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#ftco-nav"
+                  aria-controls="ftco-nav"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation">
+
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="home.html" class="nav-link" data-nav-section="home"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="About Me.html" class="nav-link" data-nav-section="about"><span>About me</span></a></li>
+	          <li class="nav-item"><a href="Business2.html" class="nav-link" data-nav-section="projects"><span>Business</span></a></li>
+              <li class="nav-item"><a href="tech2.html" class="nav-link" data-nav-section="projects"><span>Tech</span></a></li>
+  	          <li class="nav-item"><a href="creativity2.html" class="nav-link" data-nav-section="projects"><span>Creative</span></a></li>
+	          <li class="nav-item cta"><a href="ContactMe.html" class="nav-link">Contact</a></li>
+
+               <li class=""><a href=" " class="nav-link" data-nav-section=" "><span>  </span></a></li>
+              <li class=""><a href=" " class="nav-link" data-nav-section=" "><span>  </span></a></li>
+              <li class=""><a href=" " class="nav-link" data-nav-section=" "><span>  </span></a></li>
+               <li class=""><a href=" " class="nav-link" data-nav-section=" "><span>  </span></a></li>
+              <li class=""><a href=" " class="nav-link" data-nav-section=" "><span>  </span></a></li>
+              <li class=""><a href=" " class="nav-link" data-nav-section=" "><span>  </span></a></li>
+               <li class=""><a href=" " class="nav-link" data-nav-section=" "><span>  </span></a></li>
+              <li class=""><a href=" " class="nav-link" data-nav-section=" "><span>  </span></a></li>
+              <li class=""><a href=" " class="nav-link" data-nav-section=" "><span>  </span></a></li>
+               <li class=""><a href=" " class="nav-link" data-nav-section=" "><span>  </span></a></li>
+              <li class=""><a href=" " class="nav-link" data-nav-section=" "><span>  </span></a></li>
+              <li class=""><a href=" " class="nav-link" data-nav-section=" "><span>  </span></a></li>
+               <li class=""><a href=" " class="nav-link" data-nav-section=" "><span>  </span></a></li>
+              <li class=""><a href=" " class="nav-link" data-nav-section=" "><span>  </span></a></li>
+              <li class=""><a href=" " class="nav-link" data-nav-section=" "><span>  </span></a></li>
+
+
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/alex2.jpg');" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-end justify-content-center">
+          <div class="col-md-9 ftco-animate pb-5 text-center">
+            <h1 class="mb-3 bread">Tech Projects</h1>
+            <p class="breadcrumbs"><span class="mr-2"><a href="index.html"></a></span> <span class="mr-2"><a href=> </a></span> </p>
+            <p> <span class="mr-2"><a href="index.html"></a></span> <span class="mr-2"><a href=> </a></span> </p>
+            <p> <span class="mr-2"><a href="index.html"></a></span> <span class="mr-2"><a href=> </a></span> </p>
+          </div>
+        </div>
+      </div>
+    </section>
+		
+
+		<section class="ftco-section ftco-project bg-light" data-section="projects">
+      <div class="container">
+        <div class="row justify-content-center pb-5">
+          <div class="col-lg-8 order-lg-last ftco-animate">
+            <h2 class="mb-4">A brief introduction to technologies and the world of tomorrow</h2>
+            <p>Dear Reader,</p> <p>I would like to start by thanking you for taking the time to look at my projects.
+          We are in a time when human progress has never been as fast as it is today. Whether it's shorter product life cycles, faster deliveries, becoming rich through social media, or groundbreaking discoveries in medicine or physics. It's all made possible because of the internet. It allows people and machines to connect is changing the way we communicate with each other today and in the future. I am curious to see where the journey goes.
+
+            </p>
+
+            <h2 class="mb-3 mt-5">Setting up my own Cloud server with Nextcloud and Raspberry Pi 4</h2>
+            <p>I think that this was the most exciting project for me so far. It all started when I was looking for an alternative cloud for my non profit organization. Google Drive was not secure enough for sensitive data and Dropbox has too little storage. Since I always wanted to do a project with a Raspberry Pi, I looked for inspiration on the internet. At this point I would like to thank my parents for giving me one for Christmas. </p>
+
+            <p>
+                <div class="w3-content w3-display-container">
+                <img class="img-fluid" src="images/inopia.jpeg" style="width:100%">
+                <img class="img-fluid" src="images/harvard.jpg" style="width:100%">
+                <img class="img-fluid" src="images/klein.jpeg" style="width:100%">
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                 <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+                function plusDivs(n) {
+                showDivs(slideIndex += n);
+                }
+                function showDivs(n) {
+                var i;
+                  var x = document.getElementsByClassName("img-fluid");
+                  if (n > x.length) {slideIndex = 1}
+                  if (n < 1) {slideIndex = x.length}
+                  for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                  }
+                  x[slideIndex-1].style.display = "block";
+                }
+             </script>
+                </div>
+
+            <p>To do this, I first downloaded the NextCloudPi image, flashed it and transferred it to a MicroSD card. This is inserted into the SD card port of the Pi and the small mini-computer is started.
+
+A monitor is recommended for the initial setup. This way you can follow what your NextCloudPi is doing. You will first see that the storage space is expanding and the Pi is then restarted.
+
+You will also see which IP address the Raspberry Pi has received from the DHCP server. You don't need the screen if the Pi is connected via Ethernet cable and you can read out in the router or in the DHCP server which IP address the Pi has received. Then the setup is completely headless and that's really great.
+However, you should also know that the NextCloudPi can be reached via nextcloudpi.local if your setup is configured with it. This is very practical, but does not necessarily have to work.
+ <p></p>
+
+If you know the IP address of your Pi, enter it in the address bar of your browser. The browser will complain that it is an insecure certificate. This is because the certificate itself is signed and you can ignore the warning and still be redirected to the corresponding website. In order to access the system with the excellent Nextcloud app from the Internet, a DynDNS domain is required.
+But what is a DynDNS domain anyway?
+ <p></p>
+In most cases, the internet provider regularly causes a forced separation in order to make the possible operation of, for example, a company server on a DSL private connection more difficult. For this reason, you need a dynamic DNS domain, which is configured in the router. As soon as the router is assigned a new IP address by the provider, it sends this to the DynDNS service and thus updates the stored data. This makes it possible to enter one's own internet address, such as nextcloud.example.com, and be automatically redirected to the correct IP of one's own router.
+
+Finally, a port redirection within the router is required. Ports 80 and 443 should be redirected internally to the RaspberryPi address. If everything has been configured correctly, it should be possible to access the Miniserver from outside via a smartphone app.
+
+
+            <h2 class="mb-3 mt-5">Data Visualization with Tableau</h2>
+              <p>
+                  I have been wanting to work with Tableau for quite some time. After the program unfortunately came a little too short in our university, I decided to learn it with Youtube. First, I downloaded the official data on corona infections from the WHO. In the next step I visualized the top 10 countries with the highest death rate. Afterwards, I compared the death rates with the corresponding infection rates.
+              </p>
+            <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="images/fdi.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="images/maxdeath.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="images/comp.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+
+            <div class="sidebar-box ftco-animate">
+
+            </div>
+
+
+
+        </div>
+      </div>
+          </div>
+    </section> <!-- .section -->
+
+
+   <footer class="ftco-footer ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">FRANKIKOPROJECTS.</h2>
+              <p>It`s a pleasure to present myself and my projects.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="https://www.linkedin.com/in/alexander-frankow/"><span class="icon-linkedin"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.instagram.com/alessandro_frankiko/"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md">
+             <div class="ftco-footer-widget mb-3">
+              <h2 class="ftco-heading-2">Services</h2>
+              <ul class="list-unstyled">
+                <li><a href="Business2.html"><span class="icon-long-arrow-right mr-2"></span>Business</a></li>
+                <li><a href="tech2.html"><span class="icon-long-arrow-right mr-2"></span>Tech</a></li>
+                <li><a href="creativity2.html"><span class="icon-long-arrow-right mr-2"></span>Creative</a></li>
+                <li><a href="About Me.html"><span class="icon-long-arrow-right mr-2"></span>About Me</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">Nuremberg, Germany</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+49 17630452774</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">a_frankow@web.de</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
