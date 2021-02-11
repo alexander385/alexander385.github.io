@@ -111,43 +111,24 @@
               </div>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10377.585542760025!2d11.087320346454755!3d49.439224772557175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479f5770d2ba010b%3A0xe8f28dead1c67937!2zQmxlaXdlacOfLCA5MDQ2MSBOw7xybmJlcmc!5e0!3m2!1sde!2sde!4v1611256230983!5m2!1sde!2sde" width="400" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>            </div>
           </div>
-
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validate"></div>
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validate"></div>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
-                <div class="validate"></div>
-              </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+            <form style="margin-left: 6%;" action="https://formspree.io/f/xnqorezo" method="POST">
+                <p>Name:</p>
+                <input type="text" name="first_name" />
+                <div id="margin" style="height: 0.5%;"></div>
+                <p>E-mail:</p>
+                <div id="margin" style="height: 0.5%;"></div>
+                <input type="text" name="email" />
+                <div id="margin" style="height: 0.5%;"></div>
+                <p>Subject:</p>
+                <div id="margin" style="height: 0.5%;"></div>
+                <input type="text" name="subject" />
+                <div id="margin" style="height: 0.5%;"></div>
+                <p>Message:</p>
+                <div id="margin" style="height: 0.5%;"></div>
+                <textarea name="message"></textarea>
+                <div id="margin" style="height: 0.5%;"></div>
+                <button type="submit" class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" >Submit Form</button>
             </form>
-          </div>
-
-        </div>
-
-      </div>
     </section><!-- End Contact Section -->
      <p> <span class="mr-2"><a href="index.html"></a></span> <span class="mr-2"><a href=> </a></span> </p>
             <p> <span class="mr-2"><a href="index.html"></a></span> <span class="mr-2"><a href=> </a></span> </p>
