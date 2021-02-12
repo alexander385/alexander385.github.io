@@ -281,21 +281,10 @@ img {vertical-align: middle;}
              </script>
                 </div>
 
-            <p>To do this, I first downloaded the NextCloudPi image, flashed it and transferred it to a MicroSD card. This is inserted into the SD card port of the Pi and the small mini-computer is started.
-
-A monitor is recommended for the initial setup. This way you can follow what your NextCloudPi is doing. You will first see that the storage space is expanding and the Pi is then restarted.
-
-You will also see which IP address the Raspberry Pi has received from the DHCP server. You don't need the screen if the Pi is connected via Ethernet cable and you can read out in the router or in the DHCP server which IP address the Pi has received. Then the setup is completely headless and that's really great.
-However, you should also know that the NextCloudPi can be reached via nextcloudpi.local if your setup is configured with it. This is very practical, but does not necessarily have to work.
- <p></p>
-
-If you know the IP address of your Pi, enter it in the address bar of your browser. The browser will complain that it is an insecure certificate. This is because the certificate itself is signed and you can ignore the warning and still be redirected to the corresponding website. In order to access the system with the excellent Nextcloud app from the Internet, a DynDNS domain is required.
-But what is a DynDNS domain anyway?
- <p></p>
-In most cases, the internet provider regularly causes a forced separation in order to make the possible operation of, for example, a company server on a DSL private connection more difficult. For this reason, you need a dynamic DNS domain, which is configured in the router. As soon as the router is assigned a new IP address by the provider, it sends this to the DynDNS service and thus updates the stored data. This makes it possible to enter one's own internet address, such as nextcloud.example.com, and be automatically redirected to the correct IP of one's own router.
-
-Finally, a port redirection within the router is required. Ports 80 and 443 should be redirected internally to the RaspberryPi address. If everything has been configured correctly, it should be possible to access the Miniserver from outside via a smartphone app.
-
+            <p>First, I downloaded the NextCloudPi image, flashed it and transferred it to a MicroSD card. The card was inserted into the SD card port of the Pi and the small mini-computer was started. A monitor is recommended for the initial setup. This way you could follow what theNextCloudPi is doing. 
+After typing the IP address of the Pi into the address bar in the browser, you could be redirected to the Nextcloud website in the first step. 
+But in order for everyone to access the cloud, a DynDNS domain is needed, which is configured in the router. Whenever the router gets a new IP address from the provider, it sends it to the DynDNS service and updates the stored data. This makes it possible to enter your own internet address (for example nextcloud.anonbaron.com) and be redirected to the correct IP of your own router. For this to happen, port redirection within the router was still required. To do this, I redirected ports 80 and 443 internally on my RasperryPi address. Et voila, the cloud server was set up.
+</p>
 
             <h2 class="mb-3 mt-5">Data Visualization with Tableau</h2>
               <p>
