@@ -30,7 +30,12 @@ img {vertical-align: middle;}
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
-
+.alex {
+  margin: auto;
+  width: 80%;
+  border: 10px solid black;
+  padding: 10px;
+}
 /* Position the "next button" to the right */
 .next {
   right: 0;
@@ -153,10 +158,11 @@ img {vertical-align: middle;}
   animation-duration: 1.5s;
   animation-fill-mode: forwards;
 }
+
 </style>
 <html lang="en">
   <head>
-    <title>FrankikoProjects - Tech Projects</title>
+    <title>Square - Free Bootstrap 4 Template by Colorlib</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -182,7 +188,7 @@ img {vertical-align: middle;}
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-	  
+
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
 	      <a class="navbar-brand" href="index.html"><span>FrankikoProjects.</span></a>
@@ -198,7 +204,7 @@ img {vertical-align: middle;}
 
 	      <div class="collapse navbar-collapse" id="">
 	        <ul class="navbar-nav nav ml-auto">
-	          <li class="nav-item"><a href="index.html" class="nav-link" data-nav-section="home"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="home.html" class="nav-link" data-nav-section="home"><span>Home</span></a></li>
 	          <li class="nav-item"><a href="About Me.html" class="nav-link" data-nav-section="about"><span>About me</span></a></li>
 	          <li class="nav-item"><a href="Business2.html" class="nav-link" data-nav-section="projects"><span>Business</span></a></li>
               <li class="nav-item"><a href="tech2.html" class="nav-link" data-nav-section="projects"><span>Tech</span></a></li>
@@ -226,7 +232,7 @@ img {vertical-align: middle;}
 	      </div>
 	    </div>
 	  </nav>
-    
+
     <section class="hero-wrap hero-wrap-2" style="background-image: url('images/alex2.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
@@ -240,7 +246,7 @@ img {vertical-align: middle;}
         </div>
       </div>
     </section>
-		
+
 
 		<section class="ftco-section ftco-project bg-light" data-section="projects">
       <div class="container">
@@ -258,8 +264,8 @@ img {vertical-align: middle;}
             <p>
                 <div class="w3-content w3-display-container">
                 <img class="img-fluid" src="images/inopia.jpeg" style="width:100%">
-                <img class="img-fluid" src="images/harvard.jpg" style="width:100%">
-                <img class="img-fluid" src="images/klein.jpeg" style="width:100%">
+                <img class="img-fluid" src="images/team1.jpg" style="width:100%">
+                <img class="img-fluid" src="images/pie.jpg" style="width:100%">
                 <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
                 <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
                  <script>
@@ -281,43 +287,81 @@ img {vertical-align: middle;}
              </script>
                 </div>
 
-            <p>First, I downloaded the NextCloudPi image, flashed it and transferred it to a MicroSD card. The card was inserted into the SD card port of the Pi and the small mini-computer was started. A monitor is recommended for the initial setup. This way you could follow what theNextCloudPi is doing. 
-After typing the IP address of the Pi into the address bar in the browser, you could be redirected to the Nextcloud website in the first step. 
-But in order for everyone to access the cloud, a DynDNS domain is needed, which is configured in the router. Whenever the router gets a new IP address from the provider, it sends it to the DynDNS service and updates the stored data. This makes it possible to enter your own internet address (for example nextcloud.anonbaron.com) and be redirected to the correct IP of your own router. For this to happen, port redirection within the router was still required. To do this, I redirected ports 80 and 443 internally on my RasperryPi address. Et voila, the cloud server was set up.
-</p>
+            <p>To do this, I first downloaded the NextCloudPi image, flashed it and transferred it to a MicroSD card. This is inserted into the SD card port of the Pi and the small mini-computer is started.
+
+A monitor is recommended for the initial setup. This way you can follow what your NextCloudPi is doing. You will first see that the storage space is expanding and the Pi is then restarted.
+
+You will also see which IP address the Raspberry Pi has received from the DHCP server. You don't need the screen if the Pi is connected via Ethernet cable and you can read out in the router or in the DHCP server which IP address the Pi has received. Then the setup is completely headless and that's really great.
+However, you should also know that the NextCloudPi can be reached via nextcloudpi.local if your setup is configured with it. This is very practical, but does not necessarily have to work.
+ <p></p>
+
+If you know the IP address of your Pi, enter it in the address bar of your browser. The browser will complain that it is an insecure certificate. This is because the certificate itself is signed and you can ignore the warning and still be redirected to the corresponding website. In order to access the system with the excellent Nextcloud app from the Internet, a DynDNS domain is required.
+But what is a DynDNS domain anyway?
+ <p></p>
+In most cases, the internet provider regularly causes a forced separation in order to make the possible operation of, for example, a company server on a DSL private connection more difficult. For this reason, you need a dynamic DNS domain, which is configured in the router. As soon as the router is assigned a new IP address by the provider, it sends this to the DynDNS service and thus updates the stored data. This makes it possible to enter one's own internet address, such as nextcloud.example.com, and be automatically redirected to the correct IP of one's own router.
+
+Finally, a port redirection within the router is required. Ports 80 and 443 should be redirected internally to the RaspberryPi address. If everything has been configured correctly, it should be possible to access the Miniserver from outside via a smartphone app.
+
 
             <h2 class="mb-3 mt-5">Data Visualization with Tableau</h2>
               <p>
-                  I have been wanting to work with Tableau for quite some time. After the program unfortunately came a little too short in our university, I decided to learn it with Youtube. First, I downloaded the official data on corona infections from the WHO. In the next step I visualized the top 10 countries with the highest death rate. Afterwards, I compared the death rates with the corresponding infection rates.
-              </p>
-            <div class="slideshow-container">
+                  I wanted to make good use of the time during the lockdown and have been learning Tableau. After the program unfortunately came a bit short in our university, I decided to learn it with Youtube. First, I downloaded the official data on corona infections from the WHO. In the next step, I visualized the top 10 countries with the highest death and infection rates in a dashboard. Unfortunately, the online embedding is not the best (I think this is due to Tableau public), which is why the play button works but doesn't speed up. Anyway, feel free to download and use the dashboard.
+            </p>
+            </section> <!-- .section -->
+    <center>
+    <div class='tableauPlaceholder' id='viz1613306002622' style='position: left'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;4Q&#47;4QRPD5495&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;4QRPD5495' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;4Q&#47;4QRPD5495&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='de' /><param name='filter' value='publish=yes' /></object></div>
+    <script type='text/javascript'>
+    var divElement = document.getElementById('viz1613306002622');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1366px';vizElement.style.height='795px';}
+    else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1366px';vizElement.style.height='795px';}
+    else { vizElement.style.width='100%';vizElement.style.height='2077px';}
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+    </center>
 
-<div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img src="images/fdi.jpg" style="width:100%">
-  <div class="text">Caption Text</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="images/maxdeath.jpg" style="width:100%">
-  <div class="text">Caption Two</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img src="images/comp.jpg" style="width:100%">
-  <div class="text">Caption Three</div>
-</div>
-
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-</div>
-<br>
+        <section class="ftco-section ftco-project bg-light" data-section="projects">
+            <div class="container">
+                <div class="row justify-content-center pb-5">
+                    <div class="col-lg-8 order-lg-last ftco-animate">
+        <h2 class="mb-3 mt-5">This Website</h2>
+        <p>
+            While I was taking Introduction to Computer Science, I had to create a small website as one assignment. This sparked my curiosity to build my own website where I present my projects. I also realized during the creation how well you learn such skills through project-based. I picked up a free template for this to have a basic framework. After that I thought about what I actually want to show. I decided that a good mix of technology, business and creativity is not only fun for me, but should also entertain the visitor. Now that we were only taught the basics of HTML and CSS as theory, it was time to put them into practice. The recipe for success: Trial and Error, Stackoverflow and Google. After I developed a better understanding of this, I will probably design a website for my club and my parents as well.
+     </p>
+    </div>
+                </div>
+            </div>
 
 
-<script>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="images/Website.jpg" style="width:100%">
+            <div class="text">Overview</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="images/website2.jpg" style="width:100%">
+            <div class="text">Some Javascript</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="images/website3.jpg" style="width:100%">
+            <div class="text">Some PHP</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+
+    <br>
+    <script>
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -347,89 +391,77 @@ function showSlides(n) {
 </script>
 
 
+        <footer class="ftco-footer ftco-section">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-md">
+                        <div class="ftco-footer-widget mb-4">
+                            <h2 class="ftco-heading-2">FRANKIKOPROJECTS.</h2>
+                            <p>It`s a pleasure to present myself and my projects.</p>
+                            <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                                <li class="ftco-animate"><a href="https://www.linkedin.com/in/alexander-frankow/"><span class="icon-linkedin"></span></a></li>
+                                <li class="ftco-animate"><a href="https://www.instagram.com/alessandro_frankiko/"><span class="icon-instagram"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
 
-            <div class="sidebar-box ftco-animate">
+                    <div class="col-md">
+                        <div class="ftco-footer-widget mb-3">
+                            <h2 class="ftco-heading-2">Services</h2>
+                            <ul class="list-unstyled">
+                                <li><a href="Business2.html"><span class="icon-long-arrow-right mr-2"></span>Business</a></li>
+                                <li><a href="tech2.html"><span class="icon-long-arrow-right mr-2"></span>Tech</a></li>
+                                <li><a href="creativity2.html"><span class="icon-long-arrow-right mr-2"></span>Creative</a></li>
+                                <li><a href="About Me.html"><span class="icon-long-arrow-right mr-2"></span>About Me</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="ftco-footer-widget mb-4">
+                            <h2 class="ftco-heading-2">Have a Questions?</h2>
+                            <div class="block-23 mb-3">
+                                <ul>
+                                    <li><span class="icon icon-map-marker"></span><span class="text">Nuremberg, Germany</span></li>
+                                    <li><a href="#"><span class="icon icon-phone"></span><span class="text">+49 17630452774</span></a></li>
+                                    <li><a href="#"><span class="icon icon-envelope"></span><span class="text">a_frankow@web.de</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
 
+                        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            <a>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                    </div>
+                </div>
             </div>
+        </footer>
 
 
 
-        </div>
-      </div>
-          </div>
-    </section> <!-- .section -->
+        <!-- loader -->
+        <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
 
-   <footer class="ftco-footer ftco-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">FRANKIKOPROJECTS.</h2>
-              <p>It`s a pleasure to present myself and my projects.</p>
-              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li class="ftco-animate"><a href="https://www.linkedin.com/in/alexander-frankow/"><span class="icon-linkedin"></span></a></li>
-                <li class="ftco-animate"><a href="https://www.instagram.com/alessandro_frankiko/"><span class="icon-instagram"></span></a></li>
-              </ul>
-            </div>
-          </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery-migrate-3.0.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.easing.1.3.js"></script>
+        <script src="js/jquery.waypoints.min.js"></script>
+        <script src="js/jquery.stellar.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/aos.js"></script>
+        <script src="js/jquery.animateNumber.min.js"></script>
+        <script src="js/bootstrap-datepicker.js"></script>
+        <script src="js/scrollax.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+        <script src="js/google-map.js"></script>
+        <script src="js/main.js"></script>
 
-          <div class="col-md">
-             <div class="ftco-footer-widget mb-3">
-              <h2 class="ftco-heading-2">Services</h2>
-              <ul class="list-unstyled">
-                <li><a href="Business2.html"><span class="icon-long-arrow-right mr-2"></span>Business</a></li>
-                <li><a href="tech2.html"><span class="icon-long-arrow-right mr-2"></span>Tech</a></li>
-                <li><a href="creativity2.html"><span class="icon-long-arrow-right mr-2"></span>Creative</a></li>
-                <li><a href="About Me.html"><span class="icon-long-arrow-right mr-2"></span>About Me</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-            	<h2 class="ftco-heading-2">Have a Questions?</h2>
-            	<div class="block-23 mb-3">
-	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">Nuremberg, Germany</span></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">a_frankow@web.de</span></a></li>
-	              </ul>
-	            </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 text-center">
-
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-          </div>
-        </div>
-      </div>
-    </footer>
-    
-  
-
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-
-
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/bootstrap-datepicker.js"></script>
-  <script src="js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="js/google-map.js"></script>
-  <script src="js/main.js"></script>
-    
   </body>
 </html>
