@@ -132,13 +132,13 @@
   ],
   "Awards": [
     {
-      "title": "Winner of the 'YOUNGAGEMENT – The Award for Young Engagement'",
+      "title": "1st Place 'YOUNGAGEMENT – The Award for Young Engagement'",
       "date": "2021-01-01",
       "awarder": "City of Nuremberg",
       "summary": "Interactive cigarette disposal bins that encourage responsible waste disposal by allowing smokers to 'vote' on questions with their cigarette butts. Installed in high-traffic smoker areas with customizable and engaging questions."
     },
     {
-      "title": "Winner of the 'YOUNGAGEMENT – The Award for Young Engagement'",
+      "title": "1st Place 'YOUNGAGEMENT – The Award for Young Engagement'",
       "date": "2020-05-01",
       "awarder": "City of Nuremberg",
       "summary": "A project addressing the digital divide in education by sourcing and refurbishing laptops for financially disadvantaged students to ensure access to online learning and tutoring, especially during the COVID-19 pandemic."
@@ -223,24 +223,34 @@
   ],
   "references": [
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "title": "1st Place 'YOUNGAGEMENT – The Award for Young Engagement'",
+      "date": "2021-01-01",
+      "awarder": "City of Nuremberg",
+      "summary": "Interactive cigarette disposal bins that encourage responsible waste disposal by allowing smokers to 'vote' on questions with their cigarette butts. Installed in high-traffic smoker areas with customizable and engaging questions."
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
+      "title": "1st Place 'YOUNGAGEMENT – The Award for Young Engagement'",
+      "date": "2020-05-01",
+      "awarder": "City of Nuremberg",
+      "summary": "A project addressing the digital divide in education by sourcing and refurbishing laptops for financially disadvantaged students to ensure access to online learning and tutoring, especially during the COVID-19 pandemic."
+    },
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "title": "1st Place Student Ideation Challenge",
+      "date": "2020-05-01",
+      "awarder": "ZOLLHOF (Startup Incubator)",
+      "summary": "Awarded for innovative ideation in a student competition about remote diagnosis for machines during malfunctions via smartphone using sound files."
+    },
+    {
+      "title": "PROMOS Scholarship",
+      "date": "2022-10-01",
+      "awarder": "German Academic Exchange Service (DAAD)",
+      "summary": "Scholarship for international exchange and academic excellence."
+    },
+    {
+      "title": "Erasmus+ Scholarship",
+      "date": "2024-08-01",
+      "awarder": "European Commission",
+      "summary": "Scholarship for academic mobility."
     }
   ]
 }
