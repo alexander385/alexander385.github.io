@@ -182,9 +182,19 @@
 
   "skills": [
     {
-      "name": "IT",
-      "icon": "fa-solid fa-laptop-code",
-      "keywords": ["MS Office", "SharePoint", "Python", "R", "SQL", "Jira", "Confluence", "Microsoft Azure", "Microsoft Power BI", "Metabase"]
+      "name": "Productivity and Collaboration Tools",
+      "icon": "fa-solid fa-briefcase",
+      "keywords": ["Microsoft Office", "SharePoint", "Confluence", "Jira"]
+    },
+    {
+      "name": "Programming and Data Analysis",
+      "icon": "fa-solid fa-code",
+      "keywords": ["Python", "R", "SQL"]
+    },
+    {
+      "name": "Cloud Computing and Business Intelligence",
+      "icon": "fa-solid fa-cloud",
+      "keywords": ["Microsoft Azure", "Power BI", "Metabase"]
     }
   ],
   "languages": [
