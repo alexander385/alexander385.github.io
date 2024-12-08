@@ -104,30 +104,30 @@
       "location": "Bamberg, Germany",
       "area": "International Information Systems Management",
       "studyType": "Master of Science",
-      "startDate": "2021-04-01",
+      "startDate": "2021",
       "endDate": "present",
       "score": "1.2",
-      "courses": []
-    },
-    {
-      "institution": "University of Putra Malaysia",
-      "location": "Kuala Lumpur, Malaysia",
-      "area": "Business Administration",
-      "studyType": "Master of Business Administration - Exchange Semester",
-      "startDate": "2022-10-01",
-      "endDate": "2023-02-28",
-      "score": "1.1",
-      "courses": ["Dean's List"]
+      "courses": ["Top X%"]
     },
     {
       "institution": "Friedrich Alexander University Erlangen – Nuremberg",
       "location": "Nuremberg, Germany",
       "area": "Business Studies – Major Information Systems",
       "studyType": "Bachelor of Arts",
-      "startDate": "2016-10-01",
-      "endDate": "2020-09-30",
+      "startDate": "2016",
+      "endDate": "2020",
       "score": "1.7",
       "courses": ["Top 10%"]
+    },
+    {
+      "institution": "University of Putra Malaysia",
+      "location": "Kuala Lumpur, Malaysia",
+      "area": "Business Administration",
+      "studyType": "Master of Business Administration - Exchange Semester",
+      "startDate": "2022",
+      "endDate": "2023",
+      "score": "1.1",
+      "courses": ["Dean's List"]
     }
   ],
   "awards": [
