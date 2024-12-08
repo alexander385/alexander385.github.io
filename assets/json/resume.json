@@ -184,18 +184,7 @@
     {
       "name": "IT",
       "icon": "fa-solid fa-laptop-code",
-      "keywords": [
-        "MS Office",
-        "SharePoint",
-        "Python",
-        "R",
-        "SQL",
-        "Jira",
-        "Confluence",
-        "Microsoft Azure",
-        "Microsoft Power BI",
-        "Metabase"
-      ]
+      "keywords": ["MS Office", "SharePoint", "Python", "R", "SQL", "Jira", "Confluence", "Microsoft Azure", "Microsoft Power BI", "Metabase"]
     }
   ],
   "languages": [
