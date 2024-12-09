@@ -209,12 +209,12 @@
     {
       "name": "Photography",
       "icon": "fa-solid fa-camera",
-      "keywords": ["Landscape", "Portrait", "Nature"]
+      "keywords": ["Street photography", "Architectural photography ", "Nature"]
     },
     {
       "name": "Music Composition",
       "icon": "fa-solid fa-music",
-      "keywords": ["Guitar", "Bass Guitar", "Songwriting"]
+      "keywords": ["Electric Guitar", "Bass Guitar", "Composition"]
     },
     {
       "name": "Hiking",
