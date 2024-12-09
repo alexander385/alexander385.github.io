@@ -88,14 +88,79 @@
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "Inopia Foundation e.V.",
+      "location": "Germany",
+      "position": "Co-Founder and Chairman of the Board",
+      "url": "",
+      "startDate": "2020-01-01",
+      "endDate": "present",
+      "summary": "Co-founded and managed an organization focused on addressing humanitarian challenges.",
+      "highlights": [
+        "Increased membership to 31 members and coordinated fundraising, projects, and financial operations.",
+        "Raised €15,000 in sponsorships and facilitated the donation of over 200 refurbished computers for socially disadvantaged students."
+      ]
+    },
+    {
+      "organization": "Bundesverband Deutscher Volks- und Betriebswirte e.V.",
+      "location": "Germany",
+      "position": "Co-Founder of the Student Branch",
+      "url": "",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "summary": "Honorary position focusing on corporate relations and student engagement.",
+      "highlights": [
+        "Organized 3+ workshops, lectures, and case studies in collaboration with companies in South Germany."
+      ]
+    },
+    {
+      "organization": "United Nations Society Nuremberg e.V.",
+      "location": "Germany",
+      "position": "Volunteer",
+      "url": "",
+      "startDate": "2018-01-01",
+      "endDate": "2019-01-01",
+      "summary": "Volunteered to support organizational activities and events.",
+      "highlights": [
+        "Managed 15+ participants for a seminar trip to the Bundestag and Ministry of Foreign Affairs in Berlin."
+      ]
+    },
+    {
+      "organization": "UNICEF Student Organisation Nuremberg",
+      "location": "Germany",
+      "position": "Volunteer",
+      "url": "",
+      "startDate": "2017-01-01",
+      "endDate": "2019-01-01",
+      "summary": "Supported UNICEF's mission by organizing and leading events and workshops.",
+      "highlights": [
+        "Organized and planned 3+ benefit concerts and a fundraising run.",
+        "Conducted workshops for 100+ elementary school students to raise awareness about children's rights."
+      ]
+    },
+    {
+      "organization": "Student Network for Ethics in Economics and Practice e.V.",
+      "location": "Germany",
+      "position": "Volunteer",
+      "url": "",
+      "startDate": "2017-01-01",
+      "endDate": "2018-01-01",
+      "summary": "Promoted fair trade practices and organized ethical events.",
+      "highlights": [
+        "Organized 5 fair trade operations for the university, including product sourcing, events, and advocacy for fair trade practices on campus."
+      ]
+    },
+    {
+      "organization": "Don Bosco Jugendwerk Nürnberg",
+      "location": "Germany",
+      "position": "Tutor",
+      "url": "",
+      "startDate": "2016-01-01",
+      "endDate": "2018-01-01",
+      "summary": "Provided tutoring and mentorship to refugees.",
+      "highlights": [
+        "Tutored and mentored 10+ unaccompanied underage refugees.",
+        "Conducted tutorials and organized leisure activities to support integration and learning."
+      ]
     }
   ],
   "education": [
