@@ -9,7 +9,8 @@ profile:
   image: alex.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Nuremberg, Bavaria 90461</p>
+    <p>Alexander Frankow</p>
+    <p>Nuremberg, Bavaria, Germany</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
