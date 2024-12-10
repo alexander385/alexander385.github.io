@@ -108,9 +108,7 @@
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
       "summary": "Honorary position focusing on corporate relations and student engagement.",
-      "highlights": [
-        "Organized 3+ workshops, lectures, and case studies in collaboration with companies in South Germany."
-      ]
+      "highlights": ["Organized 3+ workshops, lectures, and case studies in collaboration with companies in South Germany."]
     },
     {
       "organization": "United Nations Society Nuremberg e.V.",
@@ -120,9 +118,7 @@
       "startDate": "2018-01-01",
       "endDate": "2019-01-01",
       "summary": "Volunteered to support organizational activities and events.",
-      "highlights": [
-        "Managed 15+ participants for a seminar trip to the Bundestag and Ministry of Foreign Affairs in Berlin."
-      ]
+      "highlights": ["Managed 15+ participants for a seminar trip to the Bundestag and Ministry of Foreign Affairs in Berlin."]
     },
     {
       "organization": "UNICEF Student Organisation Nuremberg",
@@ -267,6 +263,16 @@
     {
       "language": "English",
       "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Intermediate",
+      "icon": ""
+    },
+    {
+      "language": "Chinese",
+      "fluency": "Beginner",
       "icon": ""
     }
   ],
