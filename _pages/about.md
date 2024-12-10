@@ -17,41 +17,32 @@ profile:
 social: true # includes social icons at the bottom of the page
 ---
 
-Welcome to My Space 🌍🎸📸
+Welcome to My Personal Portfolio Website 🌍📊🎸
 
-Hi, I’m Alexander Frankow, a dynamic professional with a passion for technology, business strategy, and creative exploration. Through this site, you can dive into my technical projects, business analyses, and creative ventures while also discovering my journey of volunteering and exploration.
+Hey there, I’m Alexander and I am a global citizen with a passion for data-driven insights, creative exploration, and the stories that connect us all. My professional and academic journey has carried me across Europe and Asia, from the historic charm of Bamberg, Germany, to the dynamic streets of Kuala Lumpur, Malaysia, and the serene shores of Yokohama, Japan.
 
-🌟 A Bit About Me
+🌏 Bridging Cultures and Ideas
 
-I’m someone who thrives at the intersection of data-driven solutions, strategic thinking, and creative expression. Over the years, I’ve developed impactful projects in the realms of technology, analytics, and digital transformation. At the same time, I’ve pursued my love for music, photography, and community engagement to balance professional ambitions with personal fulfillment.
+I believe that growth often comes from stepping beyond familiar borders and challenging one’s own assumptions. I’ve been fortunate to have had the opportunity to spend time abroad, immersing myself in diverse traditions and norms. These experiences have helped me develop a broader perspective and a deeper appreciation for different ways of thinking, which I strive to bring into both my professional and personal life. For me, travel isn’t just a break from routine—it’s a chance to learn, reflect, and gain insights that stay with me far beyond the journey itself.
 
-🔧 Projects & Analysis
+At home, my collection of traditional folk masks serves as a vivid reminder of these journeys, each one representing the stories and cultures that have shaped my outlook.
 
-Explore my work in technical development, business analysis, and data visualization:
-• Tech-Driven Insights: Creating dashboards, pipelines, and solutions to translate raw data into actionable strategies.
-• Business Strategy: From startup environments to global corporations, I’ve delivered impactful results across industries.
-• Creative Problem-Solving: Whether it’s designing prototypes or streamlining workflows, innovation is at the heart of what I do.
+📊 From Data to Decisions
 
-🌏 Exploring the World
+Professionally, I am passionate about working at the intersection of data science, analytics, and strategic thinking. During my university years, I had the unique privilege of gaining hands-on experience across a diverse range of environments— from large enterprises to SMEs, startups (and incubators), and even within the academic setting as a university researcher. These experiences allowed me to observe and engage with how organizations of varying sizes approach challenges, adapt to change, and make critical decisions.
 
-Travel has always been a source of inspiration for me. My adventures have taken me across Europe, Asia, and beyond, where I’ve immersed myself in diverse cultures. One of my favorite hobbies is collecting traditional masks, a unique way to celebrate local traditions and art.
+My industry exposure spans financial services, healthcare, transportation, automotive, and education, where I focused on transforming raw data into actionable strategies. Whether it was uncovering insights, optimizing processes, or developing meaningful solutions, I’ve come to see data as more than just numbers—it’s a narrative waiting to be understood. For me, every dataset holds the potential to tell a compelling story—one that drives smarter decisions, fosters innovation, and creates lasting impact.
 
-During my time in Japan, I discovered a deep love for hiking. Summiting Mount Fuji was a transformative experience, teaching me the value of dedication, endurance, and personal will. Through photography, I strive to capture the beauty of these moments and create lasting memories.
+🎸 Creativity 
 
-💡 Creativity & Music
-
-Music is another form of expression that resonates deeply with me. Whether composing songs or playing my guitar and bass guitar, I find joy in crafting melodies whenever time allows. It’s a reminder that creativity can take many forms, from a carefully tuned chord to a well-thought-out business solution.
+In addition to my professional pursuits, music has always been a big part of my life. When I was a small boy, I dreamed of being a rockstar, inspired by legends like Jimi Hendrix and The Beatles. Whether I’m composing my own songs or jamming on my guitar and bass, music gives me a sense of joy and creative freedom. It’s a passion that stays with me, reminding me of those childhood dreams and the simple pleasure of creating something meaningful.
 
 💙 Giving Back
 
-Since 2016, I’ve dedicated my free time to volunteering, contributing to organizations like NGOs, Unicef, and university sustainable student clubs. In 2020, I co-founded my own non-profit organization, which helped provide remote learning tools to disadvantaged students during the pandemic. Unfortunately, we had to close it due to the lack of a successor, but the experience taught me the power of teamwork and resilience.
+I believe that giving back is one of the most meaningful ways to create connection and purpose. Since my university days, I’ve been fortunate to volunteer in a variety of areas, each offering its own unique challenges and rewards. From promoting sustainability at my university with sneep e.V. to educating young children about challenges through UNICEF, these experiences have deepened my understanding of the power of community.
 
-Let’s Connect!
+Through the New Museum Initiative e.V., I had the chance to inspire young people to explore modern art, while co-founding the bdvb local chapter allowed me to organize workshops and case studies that supported students in their academic and professional development. Through the United Nations Society, I explored international topics and attended seminars to better understand global issues.
 
-If you’d like to explore my work, share thoughts on travel, or even jam out to some music, feel free to reach out. This site is a hub for collaboration, inspiration, and connection. Welcome to my world!
+In 2020, my friends and I co-founded Inopia Foundation e.V., a non-profit aimed at supporting disadvantaged students and advancing sustainability. Although we had to close it due to the lack of a successor, the experience taught me the value of teamwork and resilience. For me, volunteering is more than just giving back—it’s about learning, growing, and making a positive impact that extends far beyond any single project.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
