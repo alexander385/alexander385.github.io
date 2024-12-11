@@ -18,8 +18,24 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Welcome to My Portfolio 🌍✨
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Hi, I’m Alexander—welcome to a space where I share the projects, experiences, and passions that define my journey. This portfolio reflects my curiosity for technology, my love for creative expression, and my commitment to making a positive impact.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+On this site, you’ll find:
+
+💻 Technical Projects
+
+Explore the work I’ve done in data analytics, software development, and problem-solving. These projects showcase my hands-on approach to tackling challenges and finding innovative solutions.
+
+📊 Business Cases
+
+Dive into real-world scenarios where I’ve used data to drive smarter decisions and strategic growth across industries like finance, healthcare, and transportation.
+
+💙 Volunteering Initiatives
+
+Giving back has always been close to my heart. From promoting sustainability to empowering students, these experiences highlight the importance of teamwork and community.
+
+🎸 Creative Pursuits
+
+Music and art are my creative outlets. Whether composing songs or appreciating cultural traditions, creativity is a core part of how I see the world.
