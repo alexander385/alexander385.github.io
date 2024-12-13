@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 1
+title: my time at UNICEF
 description: with background image
 img: assets/img/12.jpg
 importance: 1
@@ -8,11 +8,16 @@ category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+During my time with **UNICEF Hochschulgruppe Nürnberg** from **June 2017 to August 2019**, I contributed to local efforts supporting UNICEF's global mission of improving children’s lives worldwide. As part of the **UNICEF-Arbeitsgruppe Nürnberg**, I worked on raising awareness, organizing events, and fundraising for key initiatives.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+### Key Contributions:
+
+- 🌍 **Public Outreach**: Organized events like **Afrikatage** at the "Erfahrungsfeld der Sinne" and hosted benefit concerts such as **"Beats for Needs"**, promoting UNICEF's mission.
+- 🎓 **Educational Programs**: Conducted **information sessions** at universities and schools to discuss **UNICEF projects** and the **UN Children's Rights Convention**.
+- 🤝 **Team Building**: Recruited new members and fostered collaboration within the Hochschulgruppe.
+- 🎄 **Fundraising Efforts**: Supported greeting card sales and other fundraising initiatives to finance global UNICEF projects.
+
+These activities helped raise visibility for UNICEF’s work and engaged the community in meaningful ways. The experience taught me the power of grassroots initiatives and teamwork in driving social impact. I am proud to have been part of such a dedicated team working towards a better future for children worldwide.
 
     ---
     layout: page

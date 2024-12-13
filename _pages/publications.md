@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: Business
+title: business projects
 description: Showcasing projects in finance, health platforms, insurance, and mobility, focused on practical solutions and strategic insights.
 nav: true
 nav_order: 2
