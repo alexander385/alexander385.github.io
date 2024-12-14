@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 2
+title: Sneep
 description: a project with a background image and giscus comments
 img: assets/img/3.jpg
 importance: 2
@@ -8,74 +8,49 @@ category: work
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## My Journey with sneep Nürnberg: Driving Sustainable Change
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+In May 2017, I joined **sneep Nürnberg**, a vibrant student network for sustainability and business ethics. Sneep’s motto, “Many steps make a movement,” perfectly captures the spirit of our group—a dynamic, interdisciplinary team dedicated to making a difference both on and off campus.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### A Mission for Fair Consumption and Business Ethics
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+At sneep, I was part of the **Fair Consumption Team**, where we tackled the challenge of promoting sustainability and ethical behavior in everyday life. We organized impactful projects to raise awareness, spark discussions, and inspire action among students and staff at the **Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)**.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+One of our most notable achievements was leading the charge for FAU to become a **Fairtrade University**. This journey required strategic planning, effective collaboration, and a commitment to meeting the five key criteria set by the **TransFair** association. As part of the effort:
+
+- We **formed a steering committee** that included students, university administrators, and representatives from campus dining services.
+- We ensured that **Fairtrade products** were available at official university events, in cafeterias, and in dining halls.
+- We organized and promoted **educational events**, such as workshops and campaigns, to engage the university community in meaningful discussions about fair trade and ethical consumption.
+
+### The Moment of Recognition
+
+Our dedication paid off when, on **April 8, 2019**, FAU was officially awarded the title of **Fairtrade University**. This recognition was a testament to the collective effort of sneep and our partners, including the **Studentenwerk Erlangen-Nürnberg**, which played a crucial role by integrating Fairtrade options into campus dining.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/fairtrade.jpg" title="Fairtrade University Initiative" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    FAU celebrated its Fairtrade University recognition, thanks to the efforts of sneep and its collaborators.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+The Fairtrade journey was not just a symbolic achievement. It introduced tangible changes, like offering Fairtrade products at events and launching creative initiatives such as a **Fashion Revolution Week** and a **fair culinary city tour**, inspiring lasting cultural shifts within the university.
 
-{% raw %}
+### Hands-On Impact: Organizing the Clothes Swap
 
-```html
+In addition to the Fairtrade campaign, I led efforts to organize a **clothes swap event**, which quickly became a favorite among students. The event showcased how simple actions, like exchanging clothes, could challenge the fast fashion industry and promote more sustainable consumption. Managing the logistics and coordinating the event was a rewarding experience that strengthened my organizational and communication skills.
+
 <div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/sneep.jpg" title="Team Meeting" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-```
 
-{% endraw %}
+---
+
+### Reflections on My Time at sneep
+
+Looking back, my experience with sneep Nürnberg was transformative. It taught me how small steps—like choosing Fairtrade products or organizing a clothes swap—can collectively lead to significant societal changes. It also instilled in me a deep appreciation for teamwork and the power of grassroots initiatives to inspire institutional shifts.
+
+Today, I carry the lessons of sneep with me, applying its principles of sustainability and ethics to every aspect of my life and work. Being part of the Fairtrade University initiative remains one of the proudest chapters of my journey, and I’m grateful to have contributed to making FAU a beacon of fair trade and conscious living.
