@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Sneep
+title: Sneep e.V.
 description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+img: assets/img/sneep.jpg
 importance: 2
 category: work
-giscus_comments: true
+related_publications: true
 ---
 
 ## My Journey with sneep Nürnberg: Small Steps, Big Impact
