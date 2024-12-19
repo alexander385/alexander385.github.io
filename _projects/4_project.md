@@ -21,7 +21,7 @@ We spent weeks planning every detail of the foundation, from its mission to its 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/foundation-team.jpg" title="The Team Behind INOPIA" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/team.jpg" title="The Team Behind INOPIA" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -35,10 +35,10 @@ INOPIA partnered with local companies to collect discarded computers, which our 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/computer-refurbishment-1.jpg" title="Refurbishing Computers" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/computer.jpg" title="Refurbishing Computers" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/computer-refurbishment-2.jpg" title="Distributing Refurbished Computers" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/computer2.jpg" title="Distributing Refurbished Computers" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -56,7 +56,7 @@ The matchmaking system not only improved efficiency but also allowed us to scale
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/inopia-one.jpg" title="The INOPIA One Platform" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid loading="eager" path="assets/video/inopia_one.mp4" title="The INOPIA One Platform" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -76,7 +76,7 @@ This initiative highlighted INOPIA’s adaptability and creativity, combining em
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/ukraine-refugees.jpg" title="Helping Ukrainian Refugees" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/ukraine.jpg" title="Helping Ukrainian Refugees" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -91,11 +91,5 @@ INOPIA’s efforts were widely recognized. We received the Young Engagement Awar
 By late 2024, as many team members transitioned to full-time careers and I moved abroad to Kuala Lumpur for my studies, we faced challenges in finding successors to take over INOPIA’s leadership. Ultimately, we made the bittersweet decision to conclude the foundation’s journey. However, we reflected on our accomplishments with immense pride and gratitude.
 
 The INOPIA Foundation was more than just a nonprofit—it was a testament to the power of purpose-driven action. From bridging the digital divide to promoting sustainability and supporting refugees, INOPIA left a lasting impact on the community it served. Though its journey has come to an end, the lessons and experiences it provided will continue to inspire us and others to strive for a better world.
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/recognition.jpg" title="Recognition for INOPIA's Work" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
 
 ---
