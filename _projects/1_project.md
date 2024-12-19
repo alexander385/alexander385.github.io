@@ -1,6 +1,6 @@
 ---
 layout: page
-title: my time at UNICEF
+title: UNICEF
 description: with background image
 img: assets/img/mask.jpg
 importance: 1
