@@ -57,10 +57,9 @@ The matchmaking system not only improved efficiency but also allowed us to scale
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid loading="eager" path="assets/video/inopia_one.mp4" title="The INOPIA One Platform" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid path="assets/video/inopia_one.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
 </div>
-
 ---
 
 ### Responding to the Russian War on Ukraine: Refugee Matchmaking and NFTs
