@@ -94,59 +94,86 @@ The INOPIA Foundation was more than just a nonprofit—it was a testament to the
 
 ---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/inopia_main.png" title="Main Page" class="img-fluid rounded z-depth-1" %}
+<div class="container mt-5">
+  <div class="row">
+    <!-- Image 1 -->
+    <div class="col-sm-4">
+      <a href="#" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-slide-to="0">
+        {% include figure.liquid loading="eager" path="assets/img/inopia_main.png" title="Main Page" class="img-fluid rounded gallery-image" %}
+      </a>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/vision.png" title="Vision" class="img-fluid rounded z-depth-1" %}
+    <!-- Image 2 -->
+    <div class="col-sm-4">
+      <a href="#" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-slide-to="1">
+        {% include figure.liquid loading="eager" path="assets/img/vision.png" title="Vision" class="img-fluid rounded gallery-image" %}
+      </a>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/meilensteine.png" title="Meilensteine" class="img-fluid rounded z-depth-1" %}
+    <!-- Image 3 -->
+    <div class="col-sm-4">
+      <a href="#" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-slide-to="2">
+        {% include figure.liquid loading="eager" path="assets/img/meilensteine.png" title="Meilensteine" class="img-fluid rounded gallery-image" %}
+      </a>
     </div>
+  </div>
+  <div class="row mt-3">
+    <!-- Image 4 -->
+    <div class="col-sm-4">
+      <a href="#" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-slide-to="3">
+        {% include figure.liquid loading="eager" path="assets/img/unser_team.png" title="Unser Team" class="img-fluid rounded gallery-image" %}
+      </a>
+    </div>
+    <!-- Image 5 -->
+    <div class="col-sm-4">
+      <a href="#" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-slide-to="4">
+        {% include figure.liquid loading="eager" path="assets/img/inopia_themen.png" title="Inopia Themen" class="img-fluid rounded gallery-image" %}
+      </a>
+    </div>
+    <!-- Image 6 -->
+    <div class="col-sm-4">
+      <a href="#" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-slide-to="5">
+        {% include figure.liquid loading="eager" path="assets/img/computerspende.png" title="Computer Spende" class="img-fluid rounded gallery-image" %}
+      </a>
+    </div>
+  </div>
 </div>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/unser_team.png" title="Unser Team" class="img-fluid rounded z-depth-1" %}
+<!-- Modal -->
+<div class="modal fade" id="galleryModal" tabindex="-1" aria-labelledby="galleryModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div id="galleryCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              {% include figure.liquid loading="eager" path="assets/img/inopia_main.png" title="Main Page" class="d-block w-100" %}
+            </div>
+            <div class="carousel-item">
+              {% include figure.liquid loading="eager" path="assets/img/vision.png" title="Vision" class="d-block w-100" %}
+            </div>
+            <div class="carousel-item">
+              {% include figure.liquid loading="eager" path="assets/img/meilensteine.png" title="Meilensteine" class="d-block w-100" %}
+            </div>
+            <div class="carousel-item">
+              {% include figure.liquid loading="eager" path="assets/img/unser_team.png" title="Unser Team" class="d-block w-100" %}
+            </div>
+            <div class="carousel-item">
+              {% include figure.liquid loading="eager" path="assets/img/inopia_themen.png" title="Inopia Themen" class="d-block w-100" %}
+            </div>
+            <div class="carousel-item">
+              {% include figure.liquid loading="eager" path="assets/img/computerspende.png" title="Computer Spende" class="d-block w-100" %}
+            </div>
+          </div>
+          <!-- Controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/inopia_themen.png" title="Inopia Themen" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/computerspende.png" title="Computer Spende" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/nfts.png" title="NFTs" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/lesepatenschaft.png" title="Lesepatenschaft" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/inopia_one.png" title="Inopia One" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/ukrainehilfe.png" title="Ukraine Hilfe" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/greenopia.png" title="Greenopia" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/ballotbin.png" title="Ballot Bin" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/kontakt.png" title="Kontakt" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/mitglied_werden.png" title="Mitglied Werden" class="img-fluid rounded z-depth-1" %}
-    </div>
+  </div>
 </div>
