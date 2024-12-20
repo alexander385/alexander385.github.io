@@ -115,46 +115,46 @@ The INOPIA Foundation was more than just a nonprofit—it was a testament to the
   <!-- Carousel Items -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      {% include figure.liquid loading="eager" path="assets/img/inopia_main.png" title="Main Page" class="d-block w-100" %}
+      {% include figure.liquid loading="eager" path="assets/img/inopia_main.png" title="Main Page" class="d-block w-100 img-fluid" %}
     </div>
     <div class="carousel-item">
-      {% include figure.liquid loading="eager" path="assets/img/vision.png" title="Vision" class="d-block w-100" %}
+      {% include figure.liquid loading="eager" path="assets/img/vision.png" title="Vision" class="d-block w-100 img-fluid" %}
     </div>
     <div class="carousel-item">
-      {% include figure.liquid loading="eager" path="assets/img/meilensteine.png" title="Meilensteine" class="d-block w-100" %}
+      {% include figure.liquid loading="eager" path="assets/img/meilensteine.png" title="Meilensteine" class="d-block w-100 img-fluid" %}
     </div>
     <div class="carousel-item">
-      {% include figure.liquid loading="eager" path="assets/img/unser_team.png" title="Unser Team" class="d-block w-100" %}
+      {% include figure.liquid loading="eager" path="assets/img/unser_team.png" title="Unser Team" class="d-block w-100 img-fluid" %}
     </div>
     <div class="carousel-item">
-      {% include figure.liquid loading="eager" path="assets/img/inopia_themen.png" title="Inopia Themen" class="d-block w-100" %}
+      {% include figure.liquid loading="eager" path="assets/img/inopia_themen.png" title="Inopia Themen" class="d-block w-100 img-fluid" %}
     </div>
     <div class="carousel-item">
-      {% include figure.liquid loading="eager" path="assets/img/computerspende.png" title="Computer Spende" class="d-block w-100" %}
+      {% include figure.liquid loading="eager" path="assets/img/computerspende.png" title="Computer Spende" class="d-block w-100 img-fluid" %}
     </div>
     <div class="carousel-item">
-      {% include figure.liquid loading="eager" path="assets/img/nfts.png" title="NFTs" class="d-block w-100" %}
+      {% include figure.liquid loading="eager" path="assets/img/nfts.png" title="NFTs" class="d-block w-100 img-fluid" %}
     </div>
     <div class="carousel-item">
-      {% include figure.liquid loading="eager" path="assets/img/lesepatenschaft.png" title="Lesepatenschaft" class="d-block w-100" %}
+      {% include figure.liquid loading="eager" path="assets/img/lesepatenschaft.png" title="Lesepatenschaft" class="d-block w-100 img-fluid" %}
     </div>
     <div class="carousel-item">
-      {% include figure.liquid loading="eager" path="assets/img/inopia_one.png" title="Inopia One" class="d-block w-100" %}
+      {% include figure.liquid loading="eager" path="assets/img/inopia_one.png" title="Inopia One" class="d-block w-100 img-fluid" %}
     </div>
     <div class="carousel-item">
-      {% include figure.liquid loading="eager" path="assets/img/ukrainehilfe.png" title="Ukraine Hilfe" class="d-block w-100" %}
+      {% include figure.liquid loading="eager" path="assets/img/ukrainehilfe.png" title="Ukraine Hilfe" class="d-block w-100 img-fluid" %}
     </div>
     <div class="carousel-item">
-      {% include figure.liquid loading="eager" path="assets/img/greenopia.png" title="Greenopia" class="d-block w-100" %}
+      {% include figure.liquid loading="eager" path="assets/img/greenopia.png" title="Greenopia" class="d-block w-100 img-fluid" %}
     </div>
     <div class="carousel-item">
-      {% include figure.liquid loading="eager" path="assets/img/ballotbin.png" title="Ballot Bin" class="d-block w-100" %}
+      {% include figure.liquid loading="eager" path="assets/img/ballotbin.png" title="Ballot Bin" class="d-block w-100 img-fluid" %}
     </div>
     <div class="carousel-item">
-      {% include figure.liquid loading="eager" path="assets/img/kontakt.png" title="Kontakt" class="d-block w-100" %}
+      {% include figure.liquid loading="eager" path="assets/img/kontakt.png" title="Kontakt" class="d-block w-100 img-fluid" %}
     </div>
     <div class="carousel-item">
-      {% include figure.liquid loading="eager" path="assets/img/mitglied_werden.png" title="Mitglied Werden" class="d-block w-100" %}
+      {% include figure.liquid loading="eager" path="assets/img/mitglied_werden.png" title="Mitglied Werden" class="d-block w-100 img-fluid" %}
     </div>
   </div>
 
