@@ -115,46 +115,46 @@ The INOPIA Foundation was more than just a nonprofit—it was a testament to the
   <!-- Carousel Images -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="assets/img/inopia_main.png" class="d-block w-100" alt="Main Page">
+      <img src="alexander385.github.io/assets/img/inopia_main.png" class="d-block w-100" alt="Main Page">
     </div>
     <div class="carousel-item">
-      <img src="assets/img/vision.png" class="d-block w-100" alt="Vision">
+      <img src="alexander385.github.io/assets/img/vision.png" class="d-block w-100" alt="Vision">
     </div>
     <div class="carousel-item">
-      <img src="assets/img/meilensteine.png" class="d-block w-100" alt="Meilensteine">
+      <img src="alexander385.github.io/assets/img/meilensteine.png" class="d-block w-100" alt="Meilensteine">
     </div>
     <div class="carousel-item">
-      <img src="assets/img/unser_team.png" class="d-block w-100" alt="Unser Team">
+      <img src="alexander385.github.io/assets/img/unser_team.png" class="d-block w-100" alt="Unser Team">
     </div>
     <div class="carousel-item">
-      <img src="assets/img/inopia_themen.png" class="d-block w-100" alt="Inopia Themen">
+      <img src="alexander385.github.io/assets/img/inopia_themen.png" class="d-block w-100" alt="Inopia Themen">
     </div>
     <div class="carousel-item">
-      <img src="assets/img/computerspende.png" class="d-block w-100" alt="Computer Spende">
+      <img src="alexander385.github.io/assets/img/computerspende.png" class="d-block w-100" alt="Computer Spende">
     </div>
     <div class="carousel-item">
-      <img src="assets/img/nfts.png" class="d-block w-100" alt="NFTs">
+      <img src="alexander385.github.io/assets/img/nfts.png" class="d-block w-100" alt="NFTs">
     </div>
     <div class="carousel-item">
-      <img src="assets/img/lesepatenschaft.png" class="d-block w-100" alt="Lesepatenschaft">
+      <img src="alexander385.github.io/assets/img/lesepatenschaft.png" class="d-block w-100" alt="Lesepatenschaft">
     </div>
     <div class="carousel-item">
-      <img src="assets/img/inopia_one.png" class="d-block w-100" alt="Inopia One">
+      <img src="alexander385.github.io/assets/img/inopia_one.png" class="d-block w-100" alt="Inopia One">
     </div>
     <div class="carousel-item">
-      <img src="assets/img/ukrainehilfe.png" class="d-block w-100" alt="Ukraine Hilfe">
+      <img src="alexander385.github.io/assets/img/ukrainehilfe.png" class="d-block w-100" alt="Ukraine Hilfe">
     </div>
     <div class="carousel-item">
-      <img src="assets/img/greenopia.png" class="d-block w-100" alt="Greenopia">
+      <img src="alexander385.github.io/assets/img/greenopia.png" class="d-block w-100" alt="Greenopia">
     </div>
     <div class="carousel-item">
-      <img src="assets/img/ballotbin.png" class="d-block w-100" alt="Ballot Bin">
+      <img src="alexander385.github.io/assets/img/ballotbin.png" class="d-block w-100" alt="Ballot Bin">
     </div>
     <div class="carousel-item">
-      <img src="assets/img/kontakt.png" class="d-block w-100" alt="Kontakt">
+      <img src="alexander385.github.io/assets/img/kontakt.png" class="d-block w-100" alt="Kontakt">
     </div>
     <div class="carousel-item">
-      <img src="assets/img/mitglied_werden.png" class="d-block w-100" alt="Mitglied Werden">
+      <img src="alexander385.github.io/assets/img/mitglied_werden.png" class="d-block w-100" alt="Mitglied Werden">
     </div>
   </div>
 
