@@ -97,7 +97,7 @@ The INOPIA Foundation was more than just a nonprofit—it was a testament to the
 <div id="inopiaCarousel" class="carousel slide mt-5" data-bs-ride="carousel">
   <!-- Indicators -->
   <div class="carousel-indicators">
-    <button type="button" data-bs-target="#inopiaCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#inopiaCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#inopiaCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#inopiaCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
     <button type="button" data-bs-target="#inopiaCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
@@ -112,49 +112,49 @@ The INOPIA Foundation was more than just a nonprofit—it was a testament to the
     <button type="button" data-bs-target="#inopiaCarousel" data-bs-slide-to="12" aria-label="Slide 13"></button>
   </div>
 
-  <!-- Carousel Images -->
+  <!-- Carousel Items -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="alexander385.github.io/assets/img/inopia_main.png" class="d-block w-100" alt="Main Page">
+      {% include figure.liquid loading="eager" path="assets/img/inopia_main.png" title="Main Page" class="d-block w-100" %}
     </div>
     <div class="carousel-item">
-      <img src="alexander385.github.io/assets/img/vision.png" class="d-block w-100" alt="Vision">
+      {% include figure.liquid loading="eager" path="assets/img/vision.png" title="Vision" class="d-block w-100" %}
     </div>
     <div class="carousel-item">
-      <img src="alexander385.github.io/assets/img/meilensteine.png" class="d-block w-100" alt="Meilensteine">
+      {% include figure.liquid loading="eager" path="assets/img/meilensteine.png" title="Meilensteine" class="d-block w-100" %}
     </div>
     <div class="carousel-item">
-      <img src="alexander385.github.io/assets/img/unser_team.png" class="d-block w-100" alt="Unser Team">
+      {% include figure.liquid loading="eager" path="assets/img/unser_team.png" title="Unser Team" class="d-block w-100" %}
     </div>
     <div class="carousel-item">
-      <img src="alexander385.github.io/assets/img/inopia_themen.png" class="d-block w-100" alt="Inopia Themen">
+      {% include figure.liquid loading="eager" path="assets/img/inopia_themen.png" title="Inopia Themen" class="d-block w-100" %}
     </div>
     <div class="carousel-item">
-      <img src="alexander385.github.io/assets/img/computerspende.png" class="d-block w-100" alt="Computer Spende">
+      {% include figure.liquid loading="eager" path="assets/img/computerspende.png" title="Computer Spende" class="d-block w-100" %}
     </div>
     <div class="carousel-item">
-      <img src="alexander385.github.io/assets/img/nfts.png" class="d-block w-100" alt="NFTs">
+      {% include figure.liquid loading="eager" path="assets/img/nfts.png" title="NFTs" class="d-block w-100" %}
     </div>
     <div class="carousel-item">
-      <img src="alexander385.github.io/assets/img/lesepatenschaft.png" class="d-block w-100" alt="Lesepatenschaft">
+      {% include figure.liquid loading="eager" path="assets/img/lesepatenschaft.png" title="Lesepatenschaft" class="d-block w-100" %}
     </div>
     <div class="carousel-item">
-      <img src="alexander385.github.io/assets/img/inopia_one.png" class="d-block w-100" alt="Inopia One">
+      {% include figure.liquid loading="eager" path="assets/img/inopia_one.png" title="Inopia One" class="d-block w-100" %}
     </div>
     <div class="carousel-item">
-      <img src="alexander385.github.io/assets/img/ukrainehilfe.png" class="d-block w-100" alt="Ukraine Hilfe">
+      {% include figure.liquid loading="eager" path="assets/img/ukrainehilfe.png" title="Ukraine Hilfe" class="d-block w-100" %}
     </div>
     <div class="carousel-item">
-      <img src="alexander385.github.io/assets/img/greenopia.png" class="d-block w-100" alt="Greenopia">
+      {% include figure.liquid loading="eager" path="assets/img/greenopia.png" title="Greenopia" class="d-block w-100" %}
     </div>
     <div class="carousel-item">
-      <img src="alexander385.github.io/assets/img/ballotbin.png" class="d-block w-100" alt="Ballot Bin">
+      {% include figure.liquid loading="eager" path="assets/img/ballotbin.png" title="Ballot Bin" class="d-block w-100" %}
     </div>
     <div class="carousel-item">
-      <img src="alexander385.github.io/assets/img/kontakt.png" class="d-block w-100" alt="Kontakt">
+      {% include figure.liquid loading="eager" path="assets/img/kontakt.png" title="Kontakt" class="d-block w-100" %}
     </div>
     <div class="carousel-item">
-      <img src="alexander385.github.io/assets/img/mitglied_werden.png" class="d-block w-100" alt="Mitglied Werden">
+      {% include figure.liquid loading="eager" path="assets/img/mitglied_werden.png" title="Mitglied Werden" class="d-block w-100" %}
     </div>
   </div>
 
