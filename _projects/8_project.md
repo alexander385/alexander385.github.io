@@ -150,51 +150,51 @@ The INOPIA Foundation was more than just a nonprofit—it was a testament to the
 
 <div class="gallery">
   <a href="#img1">
-    <img src="assets/img/inopia_main.png" alt="Main Page">
+    <img src="{{ 'assets/img/inopia_main.png' | relative_url }}" alt="Main Page">
   </a>
   <a href="#img2">
-    <img src="assets/img/vision.png" alt="Vision">
+    <img src="{{ 'assets/img/vision.png' | relative_url }}" alt="Vision">
   </a>
   <a href="#img3">
-    <img src="assets/img/meilensteine.png" alt="Meilensteine">
+    <img src="{{ 'assets/img/meilensteine.png' | relative_url }}" alt="Meilensteine">
   </a>
   <a href="#img4">
-    <img src="assets/img/unser_team.png" alt="Unser Team">
+    <img src="{{ 'assets/img/unser_team.png' | relative_url }}" alt="Unser Team">
   </a>
   <a href="#img5">
-    <img src="assets/img/inopia_themen.png" alt="Inopia Themen">
+    <img src="{{ 'assets/img/inopia_themen.png' | relative_url }}" alt="Inopia Themen">
   </a>
   <a href="#img6">
-    <img src="assets/img/computerspende.png" alt="Computer Spende">
+    <img src="{{ 'assets/img/computerspende.png' | relative_url }}" alt="Computer Spende">
   </a>
 </div>
 
 <div id="img1" class="lightbox">
   <a href="#" class="close">&times;</a>
-  <img src="assets/img/inopia_main.png" alt="Main Page">
+  <img src="{{ 'assets/img/inopia_main.png' | relative_url }}" alt="Main Page">
 </div>
 
 <div id="img2" class="lightbox">
   <a href="#" class="close">&times;</a>
-  <img src="assets/img/vision.png" alt="Vision">
+  <img src="{{ 'assets/img/vision.png' | relative_url }}" alt="Vision">
 </div>
 
 <div id="img3" class="lightbox">
   <a href="#" class="close">&times;</a>
-  <img src="assets/img/meilensteine.png" alt="Meilensteine">
+  <img src="{{ 'assets/img/meilensteine.png' | relative_url }}" alt="Meilensteine">
 </div>
 
 <div id="img4" class="lightbox">
   <a href="#" class="close">&times;</a>
-  <img src="assets/img/unser_team.png" alt="Unser Team">
+  <img src="{{ 'assets/img/unser_team.png' | relative_url }}" alt="Unser Team">
 </div>
 
 <div id="img5" class="lightbox">
   <a href="#" class="close">&times;</a>
-  <img src="assets/img/inopia_themen.png" alt="Inopia Themen">
+  <img src="{{ 'assets/img/inopia_themen.png' | relative_url }}" alt="Inopia Themen">
 </div>
 
 <div id="img6" class="lightbox">
   <a href="#" class="close">&times;</a>
-  <img src="assets/img/computerspende.png" alt="Computer Spende">
+  <img src="{{ 'assets/img/computerspende.png' | relative_url }}" alt="Computer Spende">
 </div>
