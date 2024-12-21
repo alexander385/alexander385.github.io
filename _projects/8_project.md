@@ -114,5 +114,5 @@ The INOPIA Foundation was more than just a nonprofit—it was a testament to the
 </style>
 
 <div class="pdf-container">
-  <iframe src="assets/pdf/inopia_main.pdf" title="INOPIA Foundation Gallery"></iframe>
+  <iframe src="alexander385.github.io/assets/pdf/inopia_main.pdf" title="INOPIA Foundation Gallery"></iframe>
 </div>
