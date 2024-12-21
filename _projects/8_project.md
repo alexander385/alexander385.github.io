@@ -94,46 +94,107 @@ The INOPIA Foundation was more than just a nonprofit—it was a testament to the
 
 ---
 
-<div id="galleryCarousel" class="carousel slide mt-5" data-bs-ride="carousel">
-  <!-- Indicators -->
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-    <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
-    <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
-  </div>
+<style>
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
 
-  <!-- Slideshow Items -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      {% include figure.liquid loading="eager" path="assets/img/inopia_main.png" title="Main Page" class="d-block w-100 img-fluid rounded" %}
-    </div>
-    <div class="carousel-item">
-      {% include figure.liquid loading="eager" path="assets/img/vision.png" title="Vision" class="d-block w-100 img-fluid rounded" %}
-    </div>
-    <div class="carousel-item">
-      {% include figure.liquid loading="eager" path="assets/img/meilensteine.png" title="Meilensteine" class="d-block w-100 img-fluid rounded" %}
-    </div>
-    <div class="carousel-item">
-      {% include figure.liquid loading="eager" path="assets/img/unser_team.png" title="Unser Team" class="d-block w-100 img-fluid rounded" %}
-    </div>
-    <div class="carousel-item">
-      {% include figure.liquid loading="eager" path="assets/img/inopia_themen.png" title="Inopia Themen" class="d-block w-100 img-fluid rounded" %}
-    </div>
-    <div class="carousel-item">
-      {% include figure.liquid loading="eager" path="assets/img/computerspende.png" title="Computer Spende" class="d-block w-100 img-fluid rounded" %}
-    </div>
-  </div>
+  .gallery img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
 
-  <!-- Controls -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+  .gallery img:hover {
+    transform: scale(1.05);
+  }
+
+  .lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+
+  .lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+  }
+
+  .lightbox:target {
+    display: flex;
+  }
+
+  .close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+  }
+</style>
+
+<div class="gallery">
+  <a href="#img1">
+    <img src="assets/img/inopia_main.png" alt="Main Page">
+  </a>
+  <a href="#img2">
+    <img src="assets/img/vision.png" alt="Vision">
+  </a>
+  <a href="#img3">
+    <img src="assets/img/meilensteine.png" alt="Meilensteine">
+  </a>
+  <a href="#img4">
+    <img src="assets/img/unser_team.png" alt="Unser Team">
+  </a>
+  <a href="#img5">
+    <img src="assets/img/inopia_themen.png" alt="Inopia Themen">
+  </a>
+  <a href="#img6">
+    <img src="assets/img/computerspende.png" alt="Computer Spende">
+  </a>
+</div>
+
+<div id="img1" class="lightbox">
+  <a href="#" class="close">&times;</a>
+  <img src="assets/img/inopia_main.png" alt="Main Page">
+</div>
+
+<div id="img2" class="lightbox">
+  <a href="#" class="close">&times;</a>
+  <img src="assets/img/vision.png" alt="Vision">
+</div>
+
+<div id="img3" class="lightbox">
+  <a href="#" class="close">&times;</a>
+  <img src="assets/img/meilensteine.png" alt="Meilensteine">
+</div>
+
+<div id="img4" class="lightbox">
+  <a href="#" class="close">&times;</a>
+  <img src="assets/img/unser_team.png" alt="Unser Team">
+</div>
+
+<div id="img5" class="lightbox">
+  <a href="#" class="close">&times;</a>
+  <img src="assets/img/inopia_themen.png" alt="Inopia Themen">
+</div>
+
+<div id="img6" class="lightbox">
+  <a href="#" class="close">&times;</a>
+  <img src="assets/img/computerspende.png" alt="Computer Spende">
 </div>
