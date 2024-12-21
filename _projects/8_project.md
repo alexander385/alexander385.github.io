@@ -94,25 +94,9 @@ The INOPIA Foundation was more than just a nonprofit—it was a testament to the
 
 ---
 
-<style>
-  .pdf-container {
-    position: relative;
-    width: 100%;
-    padding-bottom: 75%; /* Aspect ratio */
-    height: 0;
-    overflow: hidden;
-  }
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/pdf/inopia_main.pdf" title="Refurbishing Computers" class="img-fluid rounded z-depth-1" %}
+    </div>
 
-  .pdf-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
-  }
-</style>
-
-<div class="pdf-container">
-  <iframe src="alexander385.github.io/assets/pdf/inopia_main.pdf" title="INOPIA Foundation Gallery"></iframe>
 </div>
