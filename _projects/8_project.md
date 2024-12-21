@@ -100,6 +100,7 @@ The INOPIA Foundation was more than just a nonprofit—it was a testament to the
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 10px;
+    justify-content: center;
   }
 
   .gallery img {
@@ -150,12 +151,24 @@ The INOPIA Foundation was more than just a nonprofit—it was a testament to the
 </style>
 
 <div class="gallery">
-  <a href="#img1"><img src="{{ '/assets/img/inopia_main.png' | relative_url }}" alt="Main Page"></a>
-  <a href="#img2"><img src="{{ '/assets/img/vision.png' | relative_url }}" alt="Vision"></a>
-  <a href="#img3"><img src="{{ '/assets/img/meilensteine.png' | relative_url }}" alt="Meilensteine"></a>
-  <a href="#img4"><img src="{{ '/assets/img/unser_team.png' | relative_url }}" alt="Unser Team"></a>
-  <a href="#img5"><img src="{{ '/assets/img/inopia_themen.png' | relative_url }}" alt="Inopia Themen"></a>
-  <a href="#img6"><img src="{{ '/assets/img/computerspende.png' | relative_url }}" alt="Computer Spende"></a>
+  <a href="#img1">
+    <img src="{{ '/assets/img/inopia_main.png' | relative_url }}" alt="Main Page">
+  </a>
+  <a href="#img2">
+    <img src="{{ '/assets/img/vision.png' | relative_url }}" alt="Vision">
+  </a>
+  <a href="#img3">
+    <img src="{{ '/assets/img/meilensteine.png' | relative_url }}" alt="Meilensteine">
+  </a>
+  <a href="#img4">
+    <img src="{{ '/assets/img/unser_team.png' | relative_url }}" alt="Unser Team">
+  </a>
+  <a href="#img5">
+    <img src="{{ '/assets/img/inopia_themen.png' | relative_url }}" alt="Inopia Themen">
+  </a>
+  <a href="#img6">
+    <img src="{{ '/assets/img/computerspende.png' | relative_url }}" alt="Computer Spende">
+  </a>
 </div>
 
 <!-- Lightbox -->
