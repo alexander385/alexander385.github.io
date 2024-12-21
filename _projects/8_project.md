@@ -95,109 +95,24 @@ The INOPIA Foundation was more than just a nonprofit—it was a testament to the
 ---
 
 <style>
-  /* Gallery Grid */
-  .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 10px;
-    justify-content: center;
-  }
-
-  .gallery img {
+  .pdf-container {
+    position: relative;
     width: 100%;
-    height: auto;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: transform 0.2s ease;
+    padding-bottom: 75%; /* Aspect ratio */
+    height: 0;
+    overflow: hidden;
   }
 
-  .gallery img:hover {
-    transform: scale(1.05);
-  }
-
-  /* Lightbox */
-  .lightbox {
-    display: none;
-    position: fixed;
+  .pdf-container iframe {
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.8);
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-  }
-
-  .lightbox img {
-    max-width: 90%;
-    max-height: 90%;
-    border-radius: 5px;
-  }
-
-  .lightbox:target {
-    display: flex;
-  }
-
-  .close {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    color: white;
-    font-size: 30px;
-    text-decoration: none;
-    font-family: Arial, sans-serif;
+    border: none;
   }
 </style>
 
-<div class="gallery">
-  <a href="#img1">
-    <img src="{{ '/assets/img/inopia_main.png' | relative_url }}" alt="Main Page">
-  </a>
-  <a href="#img2">
-    <img src="{{ '/assets/img/vision.png' | relative_url }}" alt="Vision">
-  </a>
-  <a href="#img3">
-    <img src="{{ '/assets/img/meilensteine.png' | relative_url }}" alt="Meilensteine">
-  </a>
-  <a href="#img4">
-    <img src="{{ '/assets/img/unser_team.png' | relative_url }}" alt="Unser Team">
-  </a>
-  <a href="#img5">
-    <img src="{{ '/assets/img/inopia_themen.png' | relative_url }}" alt="Inopia Themen">
-  </a>
-  <a href="#img6">
-    <img src="{{ '/assets/img/computerspende.png' | relative_url }}" alt="Computer Spende">
-  </a>
-</div>
-
-<!-- Lightbox -->
-<div id="img1" class="lightbox">
-  <a href="#" class="close">&times;</a>
-  <img src="{{ '/assets/img/inopia_main.png' | relative_url }}" alt="Main Page">
-</div>
-
-<div id="img2" class="lightbox">
-  <a href="#" class="close">&times;</a>
-  <img src="{{ '/assets/img/vision.png' | relative_url }}" alt="Vision">
-</div>
-
-<div id="img3" class="lightbox">
-  <a href="#" class="close">&times;</a>
-  <img src="{{ '/assets/img/meilensteine.png' | relative_url }}" alt="Meilensteine">
-</div>
-
-<div id="img4" class="lightbox">
-  <a href="#" class="close">&times;</a>
-  <img src="{{ '/assets/img/unser_team.png' | relative_url }}" alt="Unser Team">
-</div>
-
-<div id="img5" class="lightbox">
-  <a href="#" class="close">&times;</a>
-  <img src="{{ '/assets/img/inopia_themen.png' | relative_url }}" alt="Inopia Themen">
-</div>
-
-<div id="img6" class="lightbox">
-  <a href="#" class="close">&times;</a>
-  <img src="{{ '/assets/img/computerspende.png' | relative_url }}" alt="Computer Spende">
+<div class="pdf-container">
+  <iframe src="assets/pdf/inopia_main.pdf" title="INOPIA Foundation Gallery"></iframe>
 </div>
