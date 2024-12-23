@@ -96,9 +96,6 @@ The INOPIA Foundation was more than just a nonprofit—it was a testament to the
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0 text-center">
-        <iframe src="assets/pdf/inopia_main.pdf" style="width:100%; height:600px;" frameborder="0"></iframe>
-        <p>
-            <a href="assets/pdf/inopia_main.pdf" class="btn btn-primary mt-3" target="_blank" rel="noopener noreferrer">Download PDF</a>
-        </p>
+        <iframe src="/_projects/assets/pdf/inopia_main.pdf" style="width:100%; height:600px;" frameborder="0"></iframe>
     </div>
 </div>
