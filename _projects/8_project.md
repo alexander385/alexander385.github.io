@@ -93,9 +93,3 @@ By late 2024, as many team members transitioned to full-time careers and I moved
 The INOPIA Foundation was more than just a nonprofit—it was a testament to the power of purpose-driven action. From bridging the digital divide to promoting sustainability and supporting refugees, INOPIA left a lasting impact on the community it served. Though its journey has come to an end, the lessons and experiences it provided will continue to inspire us and others to strive for a better world.
 
 ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0 text-center">
-        <iframe src="/_projects/assets/pdf/inopia_main.pdf" style="width:100%; height:600px;" frameborder="0"></iframe>
-    </div>
-</div>
