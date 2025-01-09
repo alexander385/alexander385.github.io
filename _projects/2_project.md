@@ -8,13 +8,15 @@ category: work
 related_publications: true
 ---
 
-## My Journey with sneep Nürnberg: Small Steps, Big Impact
+### Volunteering at SNEEP
 
-In May 2017, I joined **sneep Nürnberg**, a student network committed to sustainability and business ethics. With the motto “Many steps make a movement,” sneep brought together like-minded individuals passionate about driving meaningful change.
+I joined **SNEEP (Student Network for Ethics in Economics and Practice)** in **2017**, after noticing a poster at my university that highlighted a mission very close to my heart—promoting ethical, sustainable business practices. As someone who believes that responsible use of resources and adherence to moral principles are essential for good economics, I was immediately drawn to SNEEP’s vision.
 
-### Championing Fair Consumption
+#### Fair Consumption Project
 
-As part of the **Fair Consumption Team**, I worked to promote ethical behavior and sustainability at **Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)**. One of our biggest achievements was helping FAU earn the title of **Fairtrade University** in April 2019. This milestone involved forming a diverse steering committee, making Fairtrade products accessible across campus, and organizing educational events to inspire the community.
+A key initiative I was involved in was the **Fair Consumption** project at **Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)**. Together with my fellow SNEEP members, we organized regular events during each semester to raise awareness about environmentally friendly choices and the importance of mindful consumption. We talked about topics like **organic food**, reducing **food waste**, and the idea of sharing food rather than discarding it. Our efforts contributed to FAU being awarded the **Fairtrade University** title in **April 2019**, a milestone that recognized the campus’s commitment to Fairtrade products and ethical sourcing practices.
+
+<div class="row">
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -25,9 +27,11 @@ As part of the **Fair Consumption Team**, I worked to promote ethical behavior a
     FAU proudly receiving its Fairtrade University award, a testament to sneep’s dedication.
 </div>
 
-### Hands-On Projects and Lasting Memories
+#### Clothes Swap Events
 
-Beyond Fairtrade, I led efforts like a **clothes swap event** to challenge fast fashion and promote sustainable consumption. Seeing students embrace the idea of swapping rather than buying left a lasting impression on me. The teamwork and energy during these projects were unforgettable.
+We also tackled **fast fashion** through **clothes swap** events. The goal was to encourage students and staff to think about the environmental impact of overconsumption. Swapping clothes with one another not only helped keep textiles in circulation longer, but also helped people reflect on the true cost of “disposable” fashion. It was exciting to see participants embrace this fresh mindset—one where sustainability and community were at the forefront, rather than convenience or habit.
+
+<div class="row">
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -38,8 +42,8 @@ Beyond Fairtrade, I led efforts like a **clothes swap event** to challenge fast 
     The amazing sneep team that made every project a success.
 </div>
 
-### A Transformative Experience
+### Reflection
 
-My time at sneep Nürnberg was unforgettable. It showed me how small, thoughtful actions can spark cultural shifts. The Fairtrade University campaign remains one of my proudest achievements, and the experience continues to inspire me to live and work with sustainability and ethics at the forefront.
+My time at SNEEP strengthened my belief that real change starts gradually but grows steadily when people remain consistent and supportive of one another. We came together from different backgrounds, but we all shared the desire to push for more ethical and sustainable ways of doing business. This commitment to socially responsible economics taught me that we can be good economists without compromising on moral standards, and that even small actions—like choosing Fairtrade coffee or swapping clothes—can make a lasting impact if done collectively.
 
 ---
