@@ -16,24 +16,16 @@ profile:
 #social: true # includes social icons at the bottom of the page
 ---
 
-Welcome to My Portfolio 🌍✨
+Hello, and thank you for visiting my personal portfolio website!
 
-Hi, I’m Alexander—welcome to a space where I share the projects, experiences, and passions that define my journey. This portfolio reflects my curiosity for technology, my love for creative expression, and my commitment to making a positive impact.
+I’m excited to share a brief overview of my professional, academic, and personal journey with you.
 
-On this site, you’ll find:
+I hold a Master of Science degree in International Information Systems Management from the University of Bamberg in Germany. During my studies, I gained valuable experience across diverse industries, including insurance, education, finance, and healthcare. These opportunities allowed me to apply data-driven methods, data science techniques, and creative approaches like design thinking to enhance decision-making and improve project outcomes.
 
-💻 Technical Projects
+As part of my academic journey, I had the privilege of completing an exchange semester in Kuala Lumpur, Malaysia, in 2022. Studying at Universiti Putra Malaysia, one of Southeast Asia’s leading institutions, broadened my cultural horizons and earned me the Dean’s List Recognition for Academic Excellence. Living in Malaysia, a vibrant cultural melting pot, enriched my understanding of diverse perspectives and deepened my appreciation for global collaboration.
 
-Explore the work I’ve done in data analytics, software development, and problem-solving. These projects showcase my hands-on approach to tackling challenges and finding innovative solutions.
+I also interned at Bosch headquarters in Yokohama, Japan, as a strategy consultant specializing in competitive intelligence. This experience provided me with valuable insights into Japanese business practices and a deeper understanding of Southeast and East Asian markets.
 
-📊 Business Cases
+Beyond my professional and academic pursuits, I have been deeply committed to volunteerism for over eight years, contributing to organizations like UNICEF, SNIP, and Don Bosco. Additionally, I co-founded a non-profit organization focused on empowering disadvantaged youth and promoting sustainability. These initiatives reflect my belief in the importance of giving back to the community and creating a meaningful impact.
 
-Dive into real-world scenarios where I’ve used data to drive smarter decisions and strategic growth across industries like finance, healthcare, and transportation.
-
-💙 Volunteering Initiatives
-
-Giving back has always been close to my heart. From promoting sustainability to empowering students, these experiences highlight the importance of teamwork and community.
-
-🎸 Creative Pursuits
-
-Music and art are my creative outlets. Whether composing songs or appreciating cultural traditions, creativity is a core part of how I see the world.
+Thank you for visiting my portfolio. I invite you to explore the projects and initiatives that have shaped my journey. I would love to connect and learn from your perspectives as well. Please feel free to reach out!
