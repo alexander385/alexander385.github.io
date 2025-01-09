@@ -94,10 +94,6 @@ The INOPIA Foundation was more than just a nonprofit—it was a testament to the
 
 ---
 
-[Download the INOPIA Foundation PDF][def]
-
-[def]: /assets/pdf/inopia_main.pdf
-
 <embed
   src="/assets/pdf/inopia_main.pdf"
   type="application/pdf"
