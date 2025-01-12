@@ -1,11 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - alexander385
 
 repo_description_lines_max: 2
 
 github_repos:
   - alshedivat/al-folio
+  - alexander385/pandas_exercises
   - jekyll/jekyll
   - twbs/bootstrap
   - jquery/jquery
