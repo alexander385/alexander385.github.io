@@ -80,14 +80,13 @@ Here is an overview of our results:
   height="600"
 />
 
-<div style="overflow: auto;">
+<div style="width: 100%; height: 90vh; overflow-y: scroll; border: 1px solid #ccc; border-radius: 10px;">
     <iframe 
         src="/assets/pdf/Greenopia.pdf" 
-        width="100%" 
-        height="600" 
-        style="border: none;">
+        style="width: 100%; height: 100%; border: none;">
     </iframe>
 </div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="assets/video/greens.mp4" class="img-fluid rounded z-depth-1" controls=true %}
@@ -130,58 +129,12 @@ Down below, you can see the **OpenSea account** where we showcased the NFT colle
     </div>
 </div>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <iframe 
-            src="https://opensea.io/inopia-foundation" 
-            width="100%" 
-            height="600" 
-            frameborder="0" 
-            allowfullscreen>
-        </iframe>
-    </div>
+<div style="width: 100%; height: 90vh; overflow-y: scroll; border: 1px solid #ccc; border-radius: 10px;">
+    <iframe 
+        src="/assets/pdf/nft.pdf" 
+        style="width: 100%; height: 100%; border: none;">
+    </iframe>
 </div>
-
-<div id="opensea-assets" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;"></div>
-
-<script>
-    const apiKey = '5032fb29351e446fad19dd6d3be7b287';
-    const walletAddress = '0x864A11485E02Abc8915b850dFB02eF981e66cC49';
-    const container = document.getElementById('opensea-assets');
-
-    fetch(`https://api.opensea.io/api/v1/assets?owner=${walletAddress}&limit=10`, {
-        headers: { 'X-API-KEY': apiKey }
-    })
-    .then(response => response.json())
-    .then(data => {
-        if (data.assets.length === 0) {
-            container.innerHTML = '<p>No NFTs found for this wallet.</p>';
-            return;
-        }
-        
-        data.assets.forEach(asset => {
-            const assetElement = document.createElement('div');
-            assetElement.style = "text-align: center; width: 200px;";
-
-            assetElement.innerHTML = `
-                <img src="${asset.image_url || 'https://via.placeholder.com/150'}" 
-                     alt="${asset.name}" 
-                     style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-                <p style="margin: 10px 0; font-size: 14px; font-weight: bold;">${asset.name || 'Unnamed Asset'}</p>
-                <a href="${asset.permalink}" target="_blank" rel="noopener" 
-                   style="padding: 8px 12px; font-size: 12px; background-color: #007bff; color: white; text-decoration: none; border-radius: 4px;">
-                   View on OpenSea
-                </a>
-            `;
-
-            container.appendChild(assetElement);
-        });
-    })
-    .catch(error => {
-        console.error('Error fetching OpenSea data:', error);
-        container.innerHTML = '<p>Failed to load NFTs. Please try again later.</p>';
-    });
-</script>
 
 ---
 
