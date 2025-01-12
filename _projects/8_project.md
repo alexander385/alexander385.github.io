@@ -134,11 +134,52 @@ Down below, you can see the **OpenSea account** where we showcased the NFT colle
     </div>
 </div>
 
+<div id="opensea-assets" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;"></div>
+
+<script>
+    const apiKey = '5032fb29351e446fad19dd6d3be7b287';
+    const walletAddress = '0x864A11485E02Abc8915b850dFB02eF981e66cC49';
+    const container = document.getElementById('opensea-assets');
+
+    fetch(`https://api.opensea.io/api/v1/assets?owner=${walletAddress}&limit=10`, {
+        headers: { 'X-API-KEY': apiKey }
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.assets.length === 0) {
+            container.innerHTML = '<p>No NFTs found for this wallet.</p>';
+            return;
+        }
+        
+        data.assets.forEach(asset => {
+            const assetElement = document.createElement('div');
+            assetElement.style = "text-align: center; width: 200px;";
+
+            assetElement.innerHTML = `
+                <img src="${asset.image_url || 'https://via.placeholder.com/150'}" 
+                     alt="${asset.name}" 
+                     style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                <p style="margin: 10px 0; font-size: 14px; font-weight: bold;">${asset.name || 'Unnamed Asset'}</p>
+                <a href="${asset.permalink}" target="_blank" rel="noopener" 
+                   style="padding: 8px 12px; font-size: 12px; background-color: #007bff; color: white; text-decoration: none; border-radius: 4px;">
+                   View on OpenSea
+                </a>
+            `;
+
+            container.appendChild(assetElement);
+        });
+    })
+    .catch(error => {
+        console.error('Error fetching OpenSea data:', error);
+        container.innerHTML = '<p>Failed to load NFTs. Please try again later.</p>';
+    });
+</script>
+
 ---
 
 ### Recognition and Reflection
 
-At the heart of INOPIA was a team of 30 passionate volunteers, each of whom took ownership of specific areas such as fundraising, sustainability, events, and education. We encouraged autonomy and purpose, believing that motivated individuals could achieve incredible results. This decentralized approach fostered creativity and commitment, ensuring that every volunteer felt empowered to contribute meaningfully.
+At the heart of INOPIA was a team of 28 passionate volunteers, each of whom took ownership of specific areas such as fundraising, sustainability, events, and education. We encouraged autonomy and purpose, believing that motivated individuals could achieve incredible results. This decentralized approach fostered creativity and commitment, ensuring that every volunteer felt empowered to contribute meaningfully.
 
 INOPIA’s efforts were widely recognized. We received the Young Engagement Award for our Computer Refurbishment and Ballot Bins projects, and we participated in the StartSocial Initiative, a nationwide competition for volunteering projects in Germany. These accolades validated the foundation’s work and underscored the power of community-driven solutions.
 
@@ -146,7 +187,7 @@ By late 2024, as many team members transitioned to full-time careers and I moved
 
 The INOPIA Foundation was more than just a nonprofit—it was a testament to the power of purpose-driven action. From bridging the digital divide to promoting sustainability and supporting refugees, INOPIA left a lasting impact on the community it served. Though its journey has come to an end, the lessons and experiences it provided will continue to inspire us and others to strive for a better world.
 
----
+## “Below are screenshots of our website for your review. Please feel free to take a look!
 
 <embed
   src="/assets/pdf/inopia_main.pdf"
