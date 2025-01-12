@@ -265,9 +265,7 @@ Below are screenshots of our website for your review. Please feel free to take a
         // Render each page in the PDF
         for (let pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
             pdf.getPage(pageNum).then(page => {
-                const maxWidth = container.clientWidth; // Get container width
-                const scale = maxWidth / page.getViewport({ scale: 1 }).width; // Calculate scale dynamically
-                const viewport = page.getViewport({ scale }); // Apply the dynamic scale
+                const viewport = page.getViewport({ scale: 1.2 });
 
                 // Create a canvas element for each page
                 const canvas = document.createElement('canvas');
