@@ -73,19 +73,59 @@ Afterward, we packed up prizes and goodies (a mix of stuff from our partners plu
 
 Here is an overview of our results:
 
-<embed
-  src="/assets/pdf/Greenopia.pdf"
-  type="application/pdf"
-  width="100%"
-  height="600"
-/>
-
-<div style="width: 100%; height: 90vh; overflow-y: scroll; border: 1px solid #ccc; border-radius: 10px;">
-    <iframe 
-        src="/assets/pdf/Greenopia.pdf" 
-        style="width: 100%; height: 100%; border: none;">
-    </iframe>
+<div id="pdf-container" style="width: 100%; height: 90vh; overflow-y: auto; background: #f9f9f9; border: 1px solid #ccc; border-radius: 10px; padding: 10px;">
+    <div id="loading-message" style="text-align: center; font-size: 16px; color: #555; padding: 20px;">
+        Loading PDF, please wait...
+    </div>
 </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+<script>
+    // Path to the PDF file
+    const pdfUrl = '/assets/pdf/Greenopia.pdf';
+
+    // Set worker source for PDF.js
+    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js';
+
+    // Get the container and loading message
+    const container = document.getElementById('pdf-container');
+    const loadingMessage = document.getElementById('loading-message');
+
+    // Load the PDF and render it
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Remove the loading message
+        if (loadingMessage) {
+            loadingMessage.remove();
+        }
+
+        // Render each page in the PDF
+        for (let pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
+            pdf.getPage(pageNum).then(page => {
+                const viewport = page.getViewport({ scale: 1.2 });
+
+                // Create a canvas element for each page
+                const canvas = document.createElement('canvas');
+                const ctx = canvas.getContext('2d');
+                canvas.width = viewport.width;
+                canvas.height = viewport.height;
+                canvas.style = "margin: 10px auto; display: block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 5px;";
+
+                // Append canvas to the container
+                container.appendChild(canvas);
+
+                // Render the PDF page into the canvas
+                page.render({
+                    canvasContext: ctx,
+                    viewport: viewport
+                });
+            });
+        }
+    }).catch(error => {
+        // Display an error message
+        container.innerHTML = '<p style="color: red; text-align: center;">Failed to load the PDF. Please try again later.</p>';
+        console.error('Error loading PDF:', error);
+    });
+</script>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -195,11 +235,60 @@ By late 2024, as many team members transitioned to full-time careers and I moved
 
 The INOPIA Foundation was more than just a nonprofit—it was a testament to the power of purpose-driven action. From bridging the digital divide to promoting sustainability and supporting refugees, INOPIA left a lasting impact on the community it served. Though its journey has come to an end, the lessons and experiences it provided will continue to inspire us and others to strive for a better world.
 
-## “Below are screenshots of our website for your review. Please feel free to take a look!
+Below are screenshots of our website for your review. Please feel free to take a look!
 
-<embed
-  src="/assets/pdf/inopia_main.pdf"
-  type="application/pdf"
-  width="100%"
-  height="600"
-/>
+<div id="pdf-container" style="width: 100%; height: 90vh; overflow-y: auto; background: #f9f9f9; border: 1px solid #ccc; border-radius: 10px; padding: 10px;">
+    <div id="loading-message" style="text-align: center; font-size: 16px; color: #555; padding: 20px;">
+        Loading PDF, please wait...
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+<script>
+    // Path to the PDF file
+    const pdfUrl = '/assets/pdf/inopia_main.pdf';
+
+    // Set worker source for PDF.js
+    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js';
+
+    // Get the container and loading message
+    const container = document.getElementById('pdf-container');
+    const loadingMessage = document.getElementById('loading-message');
+
+    // Load the PDF and render it
+    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        // Remove the loading message
+        if (loadingMessage) {
+            loadingMessage.remove();
+        }
+
+        // Render each page in the PDF
+        for (let pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
+            pdf.getPage(pageNum).then(page => {
+                const maxWidth = container.clientWidth; // Get container width
+                const scale = maxWidth / page.getViewport({ scale: 1 }).width; // Calculate scale dynamically
+                const viewport = page.getViewport({ scale }); // Apply the dynamic scale
+
+                // Create a canvas element for each page
+                const canvas = document.createElement('canvas');
+                const ctx = canvas.getContext('2d');
+                canvas.width = viewport.width;
+                canvas.height = viewport.height;
+                canvas.style = "margin: 10px auto; display: block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 5px;";
+
+                // Append canvas to the container
+                container.appendChild(canvas);
+
+                // Render the PDF page into the canvas
+                page.render({
+                    canvasContext: ctx,
+                    viewport: viewport
+                });
+            });
+        }
+    }).catch(error => {
+        // Display an error message
+        container.innerHTML = '<p style="color: red; text-align: center;">Failed to load the PDF. Please try again later.</p>';
+        console.error('Error loading PDF:', error);
+    });
+</script>
