@@ -80,6 +80,14 @@ Here is an overview of our results:
   height="600"
 />
 
+<div style="overflow: auto;">
+    <iframe 
+        src="/assets/pdf/Greenopia.pdf" 
+        width="100%" 
+        height="600" 
+        style="border: none;">
+    </iframe>
+</div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="assets/video/greens.mp4" class="img-fluid rounded z-depth-1" controls=true %}
