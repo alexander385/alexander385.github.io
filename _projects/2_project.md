@@ -10,11 +10,11 @@ related_publications: true
 
 ### Volunteering at SNEEP
 
-I joined **SNEEP (Student Network for Ethics in Economics and Practice)** in **2017**, after noticing a poster at my university that highlighted a mission very close to my heart—promoting ethical, sustainable business practices. As someone who believes that responsible use of resources and adherence to moral principles are essential for good economics, I was immediately drawn to SNEEP’s vision.
+I joined **SNEEP (Student Network for Ethics in Economics and Practice)** in **2017**, after talking to the student group at my university. As someone who believes that responsible use of resources and adherence to moral principles are essential for good economics and business practices, I was immediately drawn to SNEEP’s vision.
 
 #### Fair Consumption Project
 
-A key initiative I was involved in was the **Fair Consumption** project at **Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)**. Together with my fellow SNEEP members, we organized regular events during each semester to raise awareness about environmentally friendly choices and the importance of mindful consumption. We talked about topics like **organic food**, reducing **food waste**, and the idea of sharing food rather than discarding it. Our efforts contributed to FAU being awarded the **Fairtrade University** title in **April 2019**, a milestone that recognized the campus’s commitment to Fairtrade products and ethical sourcing practices.
+A key initiative I was involved in was the **Fair Consumption** project at **Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)**. Together with my fellow SNEEP members, we organized regular events during each semester to raise awareness about environmentally friendly choices and the importance of mindful consumption. We talked about topics like **organic food**, reducing **food waste**, and the idea of sharing food rather than discarding it. Our long-term efforts contributed to FAU being awarded the **Fairtrade University** title in **April 2019**, a milestone that recognized the campus’s commitment to Fairtrade products and ethical sourcing practices.
 
 <div class="row">
 
