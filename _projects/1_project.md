@@ -10,13 +10,13 @@ related_publications: true
 
 ### Volunteering at UNICEF Hochschulgruppe Nürnberg
 
-From **June 2017 to August 2019**, I was part of the UNICEF Hochschulgruppe in Nürnberg, a student-led initiative dedicated to contributing to UNICEF’s global efforts to improve children’s lives. I ended up joining almost by chance—one day I heard they needed more volunteers at the university—and my experiences at **Don Bosco Jugendwerk (2016)**, where I worked with unaccompanied underage refugees, convinced me that I should get involved. That earlier exposure to humanitarian work motivated me to keep volunteering and do more for those in need.
+From **June 2017 to August 2019**, I was part of the UNICEF Hochschulgruppe in Nürnberg, a student-led initiative dedicated to contributing to UNICEF’s global efforts to improve children’s lives. I saw a flyer in my university that conviced me to join the student group.
 
 Being in the UNICEF Hochschulgruppe was special because we had students from a variety of faculties and universities in and around Nürnberg. We shared the common goal of raising awareness about children’s rights and advocating for better education, healthcare, and protection worldwide. Working together with people from different backgrounds showed me how powerful a collective effort can be when everyone is driven by genuine compassion.
 
 #### School in a Box
 
-One of our most meaningful projects was **School in a Box**. We would visit elementary schools in the Nürnberg area and give talks, demos, and hands-on activities to show young students here in Germany what daily life might look like for children in other parts of the world—especially places lacking basic educational resources. Through simple discussions and interactive materials, we helped these children appreciate how fortunate they are and understand why it’s essential to care about global inequality. This approach really opened up conversations about empathy and responsibility among both students and their teachers.
+One of our most meaningful projects was **School in a Box**. We would visit elementary schools in the Nürnberg area and give talks, demos, and hands-on activities to show young students here in Germany what daily life might look like for children in other parts of the world—especially places lacking basic educational resources. Through simple discussions and interactive materials, we helped these children to understand why it’s essential to care about global inequality. This approach really opened up conversations about empathy and responsibility among both students and their teachers.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -26,7 +26,7 @@ One of our most meaningful projects was **School in a Box**. We would visit elem
 
 #### Creative Workshops
 
-Outside the classroom, we took part in larger community events such as **Afrika Tage** and **Erfahrungswerte Sinne**. At these gatherings, we organized playful activities—like crafting animal masks with children—and used that relaxed atmosphere to talk about UNICEF’s work. It was surprising how quickly families and kids opened up during these fun moments, asking questions about what life might be like for children in underprivileged regions. Whether through conversation or simple games, these workshops helped sensitize people to the realities faced by young people across the globe.
+Outside the classroom, we took part in larger community events. At these gatherings, we organized playful activities—like crafting animal masks with children—and used that relaxed atmosphere to talk about UNICEF’s work. It was surprising how quickly families and kids opened up during these fun moments, asking questions about what life might be like for children in underprivileged regions. Whether through conversation or simple games, these workshops helped sensitize people to the realities faced by young people across the globe.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
