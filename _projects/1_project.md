@@ -23,6 +23,7 @@ One of our most meaningful projects was **School in a Box**. We would visit elem
         {% include figure.liquid loading="eager" path="assets/img/school.jpeg" title="Teaching Elementary Students About Children's Rights" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
 #### Creative Workshops
 
 Outside the classroom, we took part in larger community events such as **Afrika Tage** and **Erfahrungswerte Sinne**. At these gatherings, we organized playful activities—like crafting animal masks with children—and used that relaxed atmosphere to talk about UNICEF’s work. It was surprising how quickly families and kids opened up during these fun moments, asking questions about what life might be like for children in underprivileged regions. Whether through conversation or simple games, these workshops helped sensitize people to the realities faced by young people across the globe.
@@ -45,6 +46,6 @@ We also put together a fundraising initiative called **Beats for Needs**, where 
     </div>
 </div>
 
-### Reflection
+#### Reflection
 
 Volunteering with the UNICEF Hochschulgruppe was truly eye-opening. I learned firsthand how local efforts can have a broader impact when people come together with determination and kindness. Eventually, I had to step back to focus on my bachelor’s thesis, but this experience left a profound mark on me. It inspired me to stay involved in nonprofit work and eventually led me to start my own **INOPIA Foundation** in 2020, carrying forward the ideals of compassion, collaboration, and a drive to make a difference.
