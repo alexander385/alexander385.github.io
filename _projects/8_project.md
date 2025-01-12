@@ -80,6 +80,11 @@ Here is an overview of our results:
   height="600"
 />
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/greens.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    </div>
+</div>
 
 #### Ballot Bins for Sustainability
 
