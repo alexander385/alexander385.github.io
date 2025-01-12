@@ -125,7 +125,7 @@ Down below, you can see the **OpenSea account** where we showcased the NFT colle
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <iframe 
-            src="https://opensea.io/inopia-foundation/offers" 
+            src="https://opensea.io/inopia-foundation" 
             width="100%" 
             height="600" 
             frameborder="0" 
