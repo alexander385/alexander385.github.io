@@ -46,6 +46,3 @@ We also put together a fundraising initiative called **Beats for Needs**, where 
     </div>
 </div>
 
-#### Reflection
-
-Volunteering with the UNICEF Hochschulgruppe was truly eye-opening. I learned firsthand how local efforts can have a broader impact when people come together with determination and kindness. Eventually, I had to step back to focus on my bachelor’s thesis, but this experience left a profound mark on me. It inspired me to stay involved in nonprofit work and eventually led me to start my own **INOPIA Foundation** in 2020, carrying forward the ideals of compassion, collaboration, and a drive to make a difference.

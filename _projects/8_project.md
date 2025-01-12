@@ -169,7 +169,7 @@ Down below, you can see the **OpenSea account** where we showcased the NFT colle
     </div>
 </div>
 
-<div id="pdf-container" style="width: 100%; height: 90vh; overflow-y: auto; background: #f9f9f9; border: 1px solid #ccc; border-radius: 10px; padding: 10px;">
+<div id="pdf-container1" style="width: 100%; height: 90vh; overflow-y: auto; background: #f9f9f9; border: 1px solid #ccc; border-radius: 10px; padding: 10px;">
     <div id="loading-message" style="text-align: center; font-size: 16px; color: #555; padding: 20px;">
         Loading PDF, please wait...
     </div>
@@ -184,7 +184,7 @@ Down below, you can see the **OpenSea account** where we showcased the NFT colle
     pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js';
 
     // Get the container and loading message
-    const container = document.getElementById('pdf-container');
+    const container = document.getElementById('pdf-container1');
     const loadingMessage = document.getElementById('loading-message');
 
     // Load the PDF and render it
@@ -237,7 +237,7 @@ The INOPIA Foundation was more than just a nonprofit—it was a testament to the
 
 Below are screenshots of our website for your review. Please feel free to take a look!
 
-<div id="pdf-container" style="width: 100%; height: 90vh; overflow-y: auto; background: #f9f9f9; border: 1px solid #ccc; border-radius: 10px; padding: 10px;">
+<div id="pdf-container2" style="width: 100%; height: 90vh; overflow-y: auto; background: #f9f9f9; border: 1px solid #ccc; border-radius: 10px; padding: 10px;">
     <div id="loading-message" style="text-align: center; font-size: 16px; color: #555; padding: 20px;">
         Loading PDF, please wait...
     </div>
@@ -252,7 +252,7 @@ Below are screenshots of our website for your review. Please feel free to take a
     pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js';
 
     // Get the container and loading message
-    const container = document.getElementById('pdf-container');
+    const container = document.getElementById('pdf-container2');
     const loadingMessage = document.getElementById('loading-message');
 
     // Load the PDF and render it
