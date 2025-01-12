@@ -101,24 +101,36 @@ Another fun project we tested was introducing **ballot bins**—you know, those 
 
 ### Responding to the Russian War on Ukraine: Refugee Matchmaking and NFTs
 
-In **February 2022**, Russia’s invasion of Ukraine triggered an enormous refugee crisis, and we saw an immediate need for help—especially in Germany, where a lot of Ukrainians were seeking safety. Because we already had the JIRA infrastructure and some technical know-how, we repurposed it as a **matchmaking platform** for Ukrainian refugees and local families willing to host them.
+In **February 2022**, as the **Russian invasion** of Ukraine triggered a significant refugee crisis, the INOPIA Foundation identified an urgent need to support the influx of Ukrainian refugees seeking safety in Germany. Leveraging the technical expertise of our team and our prior experience with the INOPIA One JIRA infrastructure, we rapidly developed a matchmaking platform to connect Ukrainian refugees with local families willing to host them.
 
-Families would register, agree to strict **GDPR** rules, and upload their ID documents for verification. Meanwhile, refugees could sign up (often through local nonprofits or the city’s own referral channels), and we used our system to coordinate everything. We also made sure to create PDFs in **German, Ukrainian, and Russian** explaining where to get healthcare, how to register kids in school, and so forth. Plus, we set up a small “Ukrainian help network” of local NGOs who held weekly or bi-weekly chats to troubleshoot and share info.
+This system allowed families interested in providing assistance to register through a secure process. Participants were required to comply with stringent GDPR regulations, which included uploading ID documents for verification and agreeing to detailed data security and data sharing agreements. These agreements enabled us to securely collaborate with local nonprofits and the city’s referral channels, ensuring both the privacy of participants and the efficient distribution of resources.
 
-On top of that, we tried an **NFT fundraising** idea, asking Ukrainian parents if their kids had any drawings or artwork they’d like to share. We turned these into digital tokens on **OpenSea**, and actually raised over **€600**. The entire amount went to **Voices.org**, which offers psychological support and art therapy to kids who’ve been through trauma. Even though the NFT approach wasn’t perfect (we ran into high transaction fees and so on), it felt good to try something new that combined **tech and compassion**.
+The initiative served as a **crucial bridge between the city authorities**, who needed a clear overview of available resources, and refugees arriving in need of immediate assistance. By centralizing data and streamlining communication, we enabled a coordinated response that maximized impact during a time of immense urgency.
 
-<div class="row">
-In February 2022, Russia’s unprovoked attack on Ukraine triggered one of the largest refugee crises in recent European history. Millions of Ukrainians were displaced, seeking safety in neighboring countries, including Germany. The magnitude of the crisis demanded immediate action, and INOPIA quickly pivoted to address this urgent need. Because we already had the JIRA infrastructure and some technical know-how, we repurposed it as a **matchmaking platform** for Ukrainian refugees and local families willing to host them.
+Simultaneously, we **co-initiated the Ukrainehilfe Netzwerk Nürnberg**, a loose network of nonprofits and city representatives. This network facilitated regular collaboration, including weekly and bi-weekly meetings, where challenges were discussed, solutions brainstormed, and information shared. One of our key contributions was the creation of multilingual guides in German, Ukrainian, and Russian. These documents provided step-by-step instructions for registering children in schools, accessing financial assistance, and navigating essential services in Germany. The network not only strengthened local support structures but also empowered refugees with the information they needed to rebuild their lives.
 
-Families would register, agree to strict **GDPR** rules, and upload their ID documents for verification. Meanwhile, refugees could sign up (often through local nonprofits or the city’s own referral channels), and we used our system to coordinate everything. We also made sure to create PDFs in **German, Ukrainian, and Russian** explaining where to get healthcare, how to register kids in school, and so forth. Plus, we set up a small “Ukrainian help network” of local NGOs who held weekly or bi-weekly chats to troubleshoot and share info.
+In parallel with these efforts, we experimented with an innovative fundraising initiative during the peak of the NFT hype. Recognizing the global fascination with NFTs and the potential for digital assets to generate funds, we launched a creative project aimed at combining technology and compassion. We reached out to Ukrainian families, both within Germany and in Ukraine, **inviting children to submit drawings or artwork that reflected their traumatic experiences**. These pieces were then transformed into NFTs and sold on OpenSea, raising €600 in total. Every euro was donated to <a href="https://voices.org.ua/en/" target="_blank" rel="noopener">Voices.org</a>, an organization providing psychological support and therapy to ukrainian children traumatized by war.
 
-Beyond providing housing, INOPIA also sought creative ways to support Ukraine. One of our most innovative initiatives was the NFT fundraising project, which leveraged the growing interest in digital art. We asked refugee parents to share drawings created by their children, many of which reflected their emotions and experiences of displacement. These artworks were turned into NFTs and sold on OpenSea, raising over €600. Every euro went directly to Voices.org, an organization providing psychological support to children affected by the war through art and music therapy.
+This NFT initiative also contributed to academic research. As a supervisor for a bachelor’s thesis, I guided an analysis of the feasibility of NFTs as a fundraising tool for nonprofits. While the study identified limitations, such as high transaction fees, it also highlighted the potential of NFTs to engage a younger, tech-savvy donor base. The thesis, which was awarded a **commendable 1.3 grade**, underscored the value of exploring unconventional methods to support charitable causes.
+Down
 
-This initiative highlighted INOPIA’s adaptability and creativity, combining emerging technologies with a deeply human cause. It also gave refugee children a platform to share their stories and experiences, turning their art into a means of healing and connection.
+Down below, you can see the **OpenSea account** where we showcased the NFT collection created from the drawings of Ukrainian children. Alongside, there’s a picture of Margareta, a Ukrainian student in Germany who co-initiated the NFT project with us. This photo was taken during an interview with **Nürnberger Nachrichten**, the **largest print newspaper in Nuremberg**.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/ukraine.jpg" title="Helping Ukrainian Refugees" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/ukraine.jpg" title="Helping Ukrainian Refugees with NFTs" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <iframe 
+            src="https://opensea.io/inopia-foundation/offers" 
+            width="100%" 
+            height="600" 
+            frameborder="0" 
+            allowfullscreen>
+        </iframe>
     </div>
 </div>
 
