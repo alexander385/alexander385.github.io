@@ -77,7 +77,7 @@ Here is an overview of our results:
   src="/assets/pdf/Greenopia.pdf"
   type="application/pdf"
   width="100%"
-  height="599"
+  height="600"
 />
 
 
