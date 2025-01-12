@@ -80,11 +80,7 @@ Here is an overview of our results:
   height="600"
 />
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/greens.mp4" class="img-fluid rounded z-depth-1" controls=true %}
-    </div>
-</div>
+
 #### Ballot Bins for Sustainability
 
 Another fun project we tested was introducing **ballot bins**—you know, those see-through ashtrays with two slots, so smokers can “vote” with their cigarette butts based on funny or provocative questions. It sounds goofy, but it’s a proven way to reduce street litter by giving smokers an interactive alternative to just tossing their butt on the ground. We placed a few bins at **Amar’s Barbershop** in Nuremberg, another barbershop in Fürth, and **Nordkurve** (a cultural venue in Gostenhof), and people actually loved it. Cleanup got easier for the owners, and it sparked fun little debates outside about the question being asked.
