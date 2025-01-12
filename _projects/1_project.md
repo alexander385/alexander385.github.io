@@ -45,4 +45,3 @@ We also put together a fundraising initiative called **Beats for Needs**, where 
         {% include figure.liquid loading="eager" path="assets/img/unicef.jpg" title="Benefit Concert - Beats for Needs" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
