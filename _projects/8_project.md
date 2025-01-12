@@ -10,7 +10,7 @@ related_publications: true
 
 ### The Beginnings of INOPIA Foundation
 
-The **INOPIA Foundation** started taking shape back in **2019**, when I was already juggling various student and volunteer initiatives—like UNICEF, SNEEP, and the Young Initiative at the Neues Museum Nürnberg. Through these experiences, I realized that I not only wanted to help people but also wanted to apply my **business and IT background** in a practical way. Originally, I considered launching a typical startup, but I also saw the potential in establishing a nonprofit—one that could **experiment with new ideas**, focus on real-world impact, and bring creative solutions to social challenges. By early **2020**, after navigating some pandemic-related delays, my friends and I officially founded the Inopia Foundation.
+The **INOPIA Foundation** started taking shape back in **2019**, when I was already juggling various student and volunteer initiatives—like UNICEF, SNEEP, and the Young Initiative at the Neues Museum Nürnberg. Through these experiences, I realized that I not only wanted to help people but also wanted to apply my **information systems** in a practical way. Originally, I considered launching a typical startup, but I also saw the potential in establishing a nonprofit—one that could **experiment with new ideas**, focus on real-world impact, and bring creative solutions to social challenges. By early **2020**, after navigating some pandemic-related delays, my friends and I officially founded the Inopia Foundation.
 
 From the beginning, we decided to center our efforts on **education** and **sustainability**, inspired by the **UN Sustainable Development Goals** as well as my earlier work in organizations emphasizing resource stewardship and ethical leadership. This vision resonated with my colleagues, who all shared the same passion for bridging gaps and contributing to community well-being. In practical terms, INOPIA became our place for social innovation—a place where we could develop and test projects that might otherwise remain just ideas on paper.
 
@@ -92,10 +92,10 @@ Another fun project we tested was introducing **ballot bins**—you know, those 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/computer.jpg" title="Refurbishing Computers" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/gigi.png" title="Refurbishing Computers" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/computer2.jpg" title="Distributing Refurbished Computers" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/ballot.png" title="Distributing Refurbished Computers" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
