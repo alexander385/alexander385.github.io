@@ -19,6 +19,11 @@ I started playing guitar in the **7th grade**, and over the years, music has bec
 
 On my **SoundCloud account**, you’ll find some of my compositions—mostly indie-style tracks that reflect my creative journey.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/guitar.jpg" title="Starting the Ascent of Mount Fuji" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 <div class="row justify-content-center pb-5">
     <div class="col-lg-6 col-md-8 portfolio-item">
         <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
@@ -39,13 +44,24 @@ During my time in Japan, I discovered a newfound love for **hiking**, which beca
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/fuji1.jpg" title="Starting the Ascent of Mount Fuji" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/climb1.jpg" title="Starting the Ascent of Mount Fuji" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/fuji2.jpg" title="Midway Through the Climb" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/climb2.jpg" title="Midway Through the Climb" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/fuji3.jpg" title="Reaching the Summit" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/night1.jpg" title="Reaching the Summit" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/summit.jpg" title="Starting the Ascent of Mount Fuji" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/summit2.jpg" title="Midway Through the Climb" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/teamfuji.jpg" title="Reaching the Summit" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -60,10 +76,10 @@ Art has always been a way for me to express thoughts, hopes, and beliefs. Whethe
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/guitar_stand.jpg" title="Handcrafted Guitar Stand" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/guitarArt.jpg" title="Handcrafted Guitar Stand" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/charity_chair.jpg" title="Platz für Helfer - Charity Chair" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/draw.jpg" title="Platz für Helfer - Charity Chair" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
