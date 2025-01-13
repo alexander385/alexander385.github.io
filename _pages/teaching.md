@@ -23,6 +23,9 @@ On my **SoundCloud account**, you’ll find some of my compositions—mostly ind
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/guitar.jpg" title="Starting the Ascent of Mount Fuji" class="img-fluid rounded z-depth-1" %}
     </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/guitarArt.jpg" title="Handcrafted Guitar Stand" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 <div class="row justify-content-center pb-5">
     <div class="col-lg-6 col-md-8 portfolio-item">
