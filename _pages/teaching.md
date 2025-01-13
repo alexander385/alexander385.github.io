@@ -40,7 +40,7 @@ On my **SoundCloud account**, you’ll find some of my compositions—mostly ind
 
 #### Hiking Adventures: Climbing Mount Fuji
 
-During my time in Japan, I discovered a newfound love for **hiking**, which became more than just a physical activity—it was a test of willpower and perseverance. One of my most memorable experiences was **climbing Mount Fuji**, a journey that challenged me both physically and mentally. Despite battling altitude sickness, I reached the summit, proving to myself the power of determination.
+During my time in Japan, I discovered a newfound love for **hiking**, which became more than just a physical activity—it was a test of willpower and perseverance. One of my most memorable experiences was **climbing Mount Fuji**, a journey that challenged me both physically and mentally. Despite battling altitude sickness, I reached the summit, proving to myself the power of determination. Test
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
