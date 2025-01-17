@@ -41,7 +41,7 @@ So, we partnered with local businesses—mostly **SMEs and family-owned places**
 
 ---
 
-#### INOPIA One
+#### INOPIA One - Helping Families Find Tutors and Reading Buddies
 
 After we got the computer project running smoothly, we realized that, well, just handing out hardware often isn’t enough. Lots of kids also need **tutoring**, or maybe they could use a “reading buddy” to practice their reading skills. That’s how **INOPIA One** was born—a unified **all-in-one solution** that brought together all of our educational help under one roof.
 
@@ -53,7 +53,7 @@ We used **JIRA** to create a **matchmaking system** so that volunteers could sig
     </div>
 </div>
 ---
-#### Greenopia: Ideas for Sustainability
+#### Greenopia - Ideation Challenge for a Sustainability in the Nuremberg Region
 
 From day one, **sustainability** was also a huge priority for INOPIA. We wanted to do something that would get the community more involved and let them share their own ideas. So we launched **Greenopia**, which was basically a little “ideation challenge” focused on three big issues.
 
@@ -146,7 +146,7 @@ Another fun project we tested was introducing **ballot bins**—you know, those 
     </div>
 </div>
 
-### Responding to the Russian War on Ukraine: Refugee Matchmaking and NFTs
+### Helping Ukrainian Refugees - Finding Homes and Raising Funds Through NFTs
 
 In **February 2022**, as the **Russian invasion** of Ukraine triggered a significant refugee crisis, the INOPIA Foundation identified an urgent need to support the influx of Ukrainian refugees seeking safety in Germany. Leveraging the technical expertise of our team and our prior experience with the INOPIA One JIRA infrastructure, we rapidly developed a matchmaking platform to connect Ukrainian refugees with local families willing to host them.
 
