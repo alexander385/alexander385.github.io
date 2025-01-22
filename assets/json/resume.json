@@ -187,7 +187,7 @@
       "startDate": "2021",
       "endDate": "2024",
       "score": "1.2",
-      "courses": ["With Distinction"]
+      "courses": ["Grade 1.2 - With Distinction"]
     },
     {
       "institution": "Friedrich Alexander University Erlangen – Nuremberg",
@@ -197,7 +197,7 @@
       "startDate": "2016",
       "endDate": "2020",
       "score": "1.7",
-      "courses": ["Top 10%"]
+      "courses": ["Grade 1.7 - Top 10%"]
     },
     {
       "institution": "University of Putra Malaysia",
@@ -207,10 +207,22 @@
       "startDate": "2022",
       "endDate": "2023",
       "score": "1.1",
-      "courses": ["Dean's List"]
+      "courses": ["Grade 1.1 - Dean's List"]
     }
   ],
   "awards": [
+    {
+      "title": "Erasmus+ Scholarship",
+      "date": "2024-08-01",
+      "awarder": "European Commission",
+      "summary": "Scholarship for academic mobility."
+    },
+    {
+      "title": "PROMOS Scholarship",
+      "date": "2022-10-01",
+      "awarder": "German Academic Exchange Service (DAAD)",
+      "summary": "Scholarship for international exchange and academic excellence."
+    },
     {
       "title": "1st Place 'YOUNGAGEMENT – The Award for Young Engagement'",
       "date": "2021-01-01",
@@ -228,18 +240,6 @@
       "date": "2020-05-01",
       "awarder": "ZOLLHOF (Startup Incubator)",
       "summary": "Awarded for innovative ideation in a student competition about remote diagnosis for machines during malfunctions via smartphone using sound files."
-    },
-    {
-      "title": "PROMOS Scholarship",
-      "date": "2022-10-01",
-      "awarder": "German Academic Exchange Service (DAAD)",
-      "summary": "Scholarship for international exchange and academic excellence."
-    },
-    {
-      "title": "Erasmus+ Scholarship",
-      "date": "2024-08-01",
-      "awarder": "European Commission",
-      "summary": "Scholarship for academic mobility."
     }
   ],
   "certificates": [
