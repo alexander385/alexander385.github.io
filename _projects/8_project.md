@@ -4,13 +4,13 @@ title: Inopia Foundation (my non profit)
 description: an other project with a background image and giscus comments
 img: assets/img/team.jpg
 importance: 2
-category: work
+category: volunteering
 related_publications: true
 ---
 
 ### The Beginnings of INOPIA Foundation
 
-The **INOPIA Foundation** started taking shape back in **2019**, when I was already juggling various student and volunteer initiatives—like UNICEF, SNEEP, and the Young Initiative at the Neues Museum Nürnberg. Through these experiences, I realized that I not only wanted to help people but also wanted to apply my **information systems** in a practical way. Originally, I considered launching a typical startup, but I also saw the potential in establishing a nonprofit—one that could **experiment with new ideas**, focus on real-world impact, and bring creative solutions to social challenges. By early **2020**, after navigating some pandemic-related delays, my friends and I officially founded the Inopia Foundation.
+The **INOPIA Foundation** started taking shape back in **2019**, when I was already juggling various student and volunteer initiatives—like UNICEF, SNEEP, and the Young Initiative at the Neues Museum Nürnberg. Through these experiences, I realized that I not only wanted to help people but also wanted to apply my **information systems background** in a practical way. Originally, I considered launching a typical startup, but I also saw the potential in establishing a nonprofit—one that could **experiment with new ideas**, focus on real-world impact, and bring creative solutions to social challenges. By early **2020**, after navigating some pandemic-related delays, my friends and I officially founded the Inopia Foundation.
 
 From the beginning, we decided to center our efforts on **education** and **sustainability**, inspired by the **UN Sustainable Development Goals** as well as my earlier work in organizations emphasizing resource stewardship and ethical leadership. This vision resonated with my colleagues, who all shared the same passion for bridging gaps and contributing to community well-being. In practical terms, INOPIA became our place for social innovation—a place where we could develop and test projects that might otherwise remain just ideas on paper.
 
@@ -52,7 +52,9 @@ We used **JIRA** to create a **matchmaking system** so that volunteers could sig
         {% include video.liquid path="assets/video/inopia_one.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
 </div>
+
 ---
+
 #### Greenopia - Ideation Challenge for a Sustainability in the Nuremberg Region
 
 From day one, **sustainability** was also a huge priority for INOPIA. We wanted to do something that would get the community more involved and let them share their own ideas. So we launched **Greenopia**, which was basically a little “ideation challenge” focused on three big issues.
@@ -63,7 +65,7 @@ From day one, **sustainability** was also a huge priority for INOPIA. We wanted 
 
 To make sure we were addressing the city’s real problems, we ran an **eight-week survey** asking people about **sustainability** issues they cared about most. We sent the survey to other non-profits, shared it on social media, and encouraged as many people as possible to take part. This helped us gather a wide range of opinions and insights from different parts of the community.
 
-After that, we teamed up with local startup incubators like **Zollhof**, the **UmweltBank**, **Guampa** (a local, sustainable energy drink), and once again the **Stabstelle Bürgerschaftliches Engagement**. They provided things like **design thinking workshops**, prize money, and Goodies from our partners to motivate participants.
+After that, we teamed up with local startup incubators like **Zollhof**, the **UmweltBank**, **Guampa** (a local, sustainable energy drink), and once again the **Stabstelle Bürgerschaftliches Engagement**. They provided things like **design thinking workshops**, prize money, and goodies from our partners to motivate participants.
 
 In the end, we received **four submissions** that tackled the key challenges identified in the survey. Two of the proposals focused on **sustainable transportation**, while the others addressed **food waste**. It was inspiring to see the creativity and thoughtfulness of the participants as they presented their ideas.
 
@@ -73,65 +75,20 @@ Afterward, we packed up prizes and goodies (a mix of stuff from our partners plu
 
 Here is an overview of our results:
 
-<div id="pdf-container" style="width: 100%; height: 90vh; overflow-y: auto; background: #f9f9f9; border: 1px solid #ccc; border-radius: 10px; padding: 10px;">
-    <div id="loading-message" style="text-align: center; font-size: 16px; color: #555; padding: 20px;">
+<!-- PDF Container for Greenopia -->
+<div id="pdf-container-greenopia" style="width: 100%; height: 90vh; overflow-y: auto; background: #f9f9f9; border: 1px solid #ccc; border-radius: 10px; padding: 10px;">
+    <div id="loading-message-greenopia" style="text-align: center; font-size: 16px; color: #555; padding: 20px;">
         Loading PDF, please wait...
     </div>
 </div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
-<script>
-    // Path to the PDF file
-    const pdfUrl = '/assets/pdf/Greenopia.pdf';
-
-    // Set worker source for PDF.js
-    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js';
-
-    // Get the container and loading message
-    const container = document.getElementById('pdf-container');
-    const loadingMessage = document.getElementById('loading-message');
-
-    // Load the PDF and render it
-    pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
-        // Remove the loading message
-        if (loadingMessage) {
-            loadingMessage.remove();
-        }
-
-        // Render each page in the PDF
-        for (let pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
-            pdf.getPage(pageNum).then(page => {
-                const viewport = page.getViewport({ scale: 1.2 });
-
-                // Create a canvas element for each page
-                const canvas = document.createElement('canvas');
-                const ctx = canvas.getContext('2d');
-                canvas.width = viewport.width;
-                canvas.height = viewport.height;
-                canvas.style = "margin: 10px auto; display: block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 5px;";
-
-                // Append canvas to the container
-                container.appendChild(canvas);
-
-                // Render the PDF page into the canvas
-                page.render({
-                    canvasContext: ctx,
-                    viewport: viewport
-                });
-            });
-        }
-    }).catch(error => {
-        // Display an error message
-        container.innerHTML = '<p style="color: red; text-align: center;">Failed to load the PDF. Please try again later.</p>';
-        console.error('Error loading PDF:', error);
-    });
-</script>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="assets/video/greens.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
 </div>
+
+---
 
 #### Ballot Bins for Sustainability
 
@@ -146,6 +103,8 @@ Another fun project we tested was introducing **ballot bins**—you know, those 
     </div>
 </div>
 
+---
+
 ### Helping Ukrainian Refugees - Finding Homes and Raising Funds Through NFTs
 
 In **February 2022**, as the **Russian invasion** of Ukraine triggered a significant refugee crisis, the INOPIA Foundation identified an urgent need to support the influx of Ukrainian refugees seeking safety in Germany. Leveraging the technical expertise of our team and our prior experience with the INOPIA One JIRA infrastructure, we rapidly developed a matchmaking platform to connect Ukrainian refugees with local families willing to host them.
@@ -156,10 +115,9 @@ The initiative served as a **crucial bridge between the city authorities**, who 
 
 Simultaneously, we **co-initiated the Ukrainehilfe Netzwerk Nürnberg**, a loose network of nonprofits and city representatives. This network facilitated regular collaboration, including weekly and bi-weekly meetings, where challenges were discussed, solutions brainstormed, and information shared. One of our key contributions was the creation of multilingual guides in German, Ukrainian, and Russian. These documents provided step-by-step instructions for registering children in schools, accessing financial assistance, and navigating essential services in Germany. The network not only strengthened local support structures but also empowered refugees with the information they needed to rebuild their lives.
 
-In parallel with these efforts, we experimented with an innovative fundraising initiative during the peak of the NFT hype. Recognizing the global fascination with NFTs and the potential for digital assets to generate funds, we launched a creative project aimed at combining technology and compassion. We reached out to Ukrainian families, both within Germany and in Ukraine, **inviting children to submit drawings or artwork that reflected their traumatic experiences**. These pieces were then transformed into NFTs and sold on OpenSea, raising €600 in total. Every euro was donated to <a href="https://voices.org.ua/en/" target="_blank" rel="noopener">Voices.org</a>, an organization providing psychological support and therapy to ukrainian children traumatized by war.
+In parallel with these efforts, we experimented with an innovative fundraising initiative during the peak of the NFT hype. Recognizing the global fascination with NFTs and the potential for digital assets to generate funds, we launched a creative project aimed at combining technology and compassion. We reached out to Ukrainian families, both within Germany and in Ukraine, **inviting children to submit drawings or artwork that reflected their traumatic experiences**. These pieces were then transformed into NFTs and sold on OpenSea, raising €600 in total. Every euro was donated to <a href="https://voices.org.ua/en/" target="_blank" rel="noopener">Voices.org</a>, an organization providing psychological support and therapy to Ukrainian children traumatized by war.
 
 This NFT initiative also contributed to academic research. As a supervisor for a bachelor’s thesis, I guided an analysis of the feasibility of NFTs as a fundraising tool for nonprofits. While the study identified limitations, such as high transaction fees, it also highlighted the potential of NFTs to engage a younger, tech-savvy donor base. The thesis, which was awarded a **commendable 1.3 grade**, underscored the value of exploring unconventional methods to support charitable causes.
-Down
 
 Down below, you can see the **OpenSea account** where we showcased the NFT collection created from the drawings of Ukrainian children. Alongside, there’s a picture of Margareta, a Ukrainian student in Germany who co-initiated the NFT project with us. This photo was taken during an interview with **Nürnberger Nachrichten**, the **largest print newspaper in Nuremberg**.
 
@@ -169,36 +127,12 @@ Down below, you can see the **OpenSea account** where we showcased the NFT colle
     </div>
 </div>
 
+<!-- PDF Container for NFT overview -->
 <div id="pdf-container-nft" style="width: 100%; height: 90vh; overflow-y: auto; background: #f9f9f9; border: 1px solid #ccc; border-radius: 10px; padding: 10px;">
     <div id="loading-message-nft" style="text-align: center; font-size: 16px; color: #555; padding: 20px;">
         Loading PDF, please wait...
     </div>
 </div>
-
-<script>
-    const pdfUrlNft = '/assets/pdf/nft.pdf';
-    pdfjsLib.getDocument(pdfUrlNft).promise.then(pdf => {
-        const container = document.getElementById('pdf-container-nft');
-        const loadingMessage = document.getElementById('loading-message-nft');
-        if (loadingMessage) loadingMessage.remove();
-        for (let pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
-            pdf.getPage(pageNum).then(page => {
-                const viewport = page.getViewport({ scale: 1.2 });
-                const canvas = document.createElement('canvas');
-                const ctx = canvas.getContext('2d');
-                canvas.width = viewport.width;
-                canvas.height = viewport.height;
-                canvas.style = "margin: 10px auto; display: block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 5px;";
-                container.appendChild(canvas);
-                page.render({ canvasContext: ctx, viewport: viewport });
-            });
-        }
-    }).catch(error => {
-        const container = document.getElementById('pdf-container-nft');
-        container.innerHTML = '<p style="color: red; text-align: center;">Failed to load the PDF. Please try again later.</p>';
-        console.error('Error loading NFT PDF:', error);
-    });
-</script>
 
 ---
 
@@ -214,33 +148,80 @@ The INOPIA Foundation was more than just a nonprofit—it was a testament to the
 
 Below are screenshots of our website for your review. Please feel free to take a look!
 
+<!-- PDF Container for INOPIA main website -->
 <div id="pdf-container-inopia" style="width: 100%; height: 90vh; overflow-y: auto; background: #f9f9f9; border: 1px solid #ccc; border-radius: 10px; padding: 10px;">
     <div id="loading-message-inopia" style="text-align: center; font-size: 16px; color: #555; padding: 20px;">
         Loading PDF, please wait...
     </div>
 </div>
 
+<!-- Load PDF.js once -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
 <script>
-    const pdfUrlInopia = '/assets/pdf/inopia_main.pdf';
-    pdfjsLib.getDocument(pdfUrlInopia).promise.then(pdf => {
-        const container = document.getElementById('pdf-container-inopia');
-        const loadingMessage = document.getElementById('loading-message-inopia');
-        if (loadingMessage) loadingMessage.remove();
-        for (let pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
-            pdf.getPage(pageNum).then(page => {
-                const viewport = page.getViewport({ scale: 1.2 });
-                const canvas = document.createElement('canvas');
-                const ctx = canvas.getContext('2d');
-                canvas.width = viewport.width;
-                canvas.height = viewport.height;
-                canvas.style = "margin: 10px auto; display: block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 5px;";
-                container.appendChild(canvas);
-                page.render({ canvasContext: ctx, viewport: viewport });
-            });
+    // Make sure the worker matches the version above
+    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js';
+
+    /**
+     * Auto-scale and render a PDF into a given container.
+     * @param {string} url - Path or URL to the PDF file.
+     * @param {string} containerId - ID of the container <div>.
+     * @param {string} loadingMessageId - ID of the loading message <div>.
+     */
+    function renderPdf(url, containerId, loadingMessageId) {
+      const container = document.getElementById(containerId);
+      const loadingMessage = document.getElementById(loadingMessageId);
+
+      pdfjsLib.getDocument(url).promise.then(pdf => {
+        // Remove "Loading..." message
+        if (loadingMessage) {
+          loadingMessage.remove();
         }
-    }).catch(error => {
-        const container = document.getElementById('pdf-container-inopia');
+
+        // Use container width to compute a scale factor for each PDF page
+        const containerWidth = container.clientWidth;
+
+        // Render each page
+        for (let pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
+          pdf.getPage(pageNum).then(page => {
+            // Get unscaled viewport first
+            const unscaledViewport = page.getViewport({ scale: 1 });
+            // Calculate scale so the PDF fits nicely (slight margin)
+            const scale = (containerWidth / unscaledViewport.width) * 0.95;
+
+            // Final viewport
+            const viewport = page.getViewport({ scale });
+            const canvas = document.createElement('canvas');
+            const ctx = canvas.getContext('2d');
+
+            canvas.width = viewport.width;
+            canvas.height = viewport.height;
+            canvas.style.margin = '10px auto';
+            canvas.style.display = 'block';
+            canvas.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
+            canvas.style.borderRadius = '5px';
+
+            container.appendChild(canvas);
+
+            page.render({
+              canvasContext: ctx,
+              viewport: viewport
+            });
+          });
+        }
+      }).catch(error => {
         container.innerHTML = '<p style="color: red; text-align: center;">Failed to load the PDF. Please try again later.</p>';
-        console.error('Error loading INOPIA PDF:', error);
-    });
+        console.error(`Error loading PDF ${url}:`, error);
+      });
+    }
+
+    // Render each PDF with the above function
+
+    // Greenopia PDF
+    renderPdf('/assets/pdf/Greenopia.pdf', 'pdf-container-greenopia', 'loading-message-greenopia');
+
+    // NFT PDF
+    renderPdf('/assets/pdf/nft.pdf', 'pdf-container-nft', 'loading-message-nft');
+
+    // INOPIA main website PDF
+    renderPdf('/assets/pdf/inopia_main.pdf', 'pdf-container-inopia', 'loading-message-inopia');
 </script>
