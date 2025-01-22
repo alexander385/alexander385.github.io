@@ -22,68 +22,87 @@
   "work": [
     {
       "name": "Robert Bosch GmbH",
-      "position": "Intern - Strategy Consultant and Competitor Intelligence ",
+      "position": "Intern - Strategy Consultant & Competitor Intelligence",
       "location": "Yokohama, Japan",
-      "startDate": "2024-08-16",
-      "endDate": "2025-02-02",
-      "summary": " Led the development, automation, and integration of a centralized intelligence platform to streamline market analysis. Designed and implemented a scalable web scraper using cloud-based tools to gather relevant market news and updates.",
-      "highlights": ["Data Driven Decision Making", "Data Analytics"]
+      "startDate": "2024-08",
+      "endDate": "2025-02",
+      "highlights": [
+        "Analyzed competitors' strategies in ASEAN, Japan, and China, researching production volumes, manufacturing locations, financials, and hiring trends, and created 5 PowerBI dashboards to deliver actionable insights for product managers via SharePoint.",
+        "Built a web scraper in Azure ML Studio to collect and preprocess 15+ daily automotive news using Azure OpenAI API for data refinement and integrating outputs into a Bosch GenAI chatbot as a PoC for LLM-based market analysis.",
+        "Created a SharePoint-based knowledge management repository guided by the SECI framework, centralizing data to improve efficiency for product managers, VPs, and sales teams, saving up to 7 hours weekly on information retrieval and collaboration."
+      ]
     },
     {
-      "name": "Chair of Information Systems, Digital Health – Prof. Dr. Christian Maier",
-      "position": "Teaching Assistant – Digital Health & Transformation",
+      "name": "Chair of Information Systems, Digital Health - Prof. Dr. Christian Maier",
+      "position": "Research Assistant - Digital Health & Transformation",
       "location": "Bamberg, Germany",
-      "startDate": "2024-01-01",
-      "endDate": "2024-06-30",
-      "summary": "Contributed to curriculum development and student assessment by updating the Managing Digital Transformation course content with the latest scientific papers, grading exams, and collaborating on creating a new Digital Health course for upcoming semesters."
+      "startDate": "2024-01",
+      "endDate": "2024-06",
+      "highlights": [
+        "Supported the development of a new Digital Health master’s course for 50+ students by creating 5 lectures and updating Digital Change Management master course materials with recent research, leading to improved student grades compared to prior semesters."
+      ]
     },
     {
       "name": "Rox Health GmbH",
-      "position": "Working Student – Data Analyst & Digital Health",
+      "position": "Working Student - Data Analyst in Digital Health",
       "location": "Berlin, Germany",
-      "startDate": "2023-04-01",
-      "endDate": "2023-09-30",
-      "summary": "Facilitated the analysis and visualization of key patterns and trends by developing 4 Metabase dashboards and assisting in building a data pipeline to process over 20k menopause complaint datasets."
+      "startDate": "2023-04",
+      "endDate": "2023-09",
+      "highlights": [
+        "Championed the use of Metabase to visualize data from 10,000 menopausal women by designing 4 dashboards that analyzed symptoms, delivering insights that enabled our medical team to identify key challenges and enhance customer consultation."
+      ]
     },
     {
       "name": "Monet Financial Technologies GmbH",
-      "position": "Working Student – Entrepreneur in Residence in Early-Stage Start-up",
+      "position": "Working Student - Entrepreneur in Residence in Early-Stage Start-Up",
       "location": "Nuremberg, Germany",
-      "startDate": "2022-02-01",
-      "endDate": "2023-02-28",
-      "summary": "Decreased CPA by 10% and increased ROAS by 5% by implementing and analyzing a data-driven performance marketing strategy with a five-figure monthly budget."
+      "startDate": "2022-02",
+      "endDate": "2023-02",
+      "highlights": [
+        "Decreased CPA by 10% and increased ROAS by 5% by implementing and analyzing a data-driven performance marketing strategy across Meta, TikTok, Snapchat, and Google Ads in DACH and SE with a four-figure monthly budget.",
+        "Managed 30 app and web user acquisition campaigns using Google Data Studio dashboards to automate tracking of KPIs and metrics across marketing channels, independently conceptualizing and scaling 100+ video/image ads aligned with performance targets."
+      ]
     },
     {
       "name": "Siemens AG",
-      "position": "Working Student – Data Analyst",
+      "position": "Working Student - Data Analyst & Software Asset Management",
       "location": "Erlangen, Germany",
-      "startDate": "2020-09-01",
-      "endDate": "2022-01-31",
-      "summary": "Enhanced documentation and reporting for international train projects in France, England, Turkey, and Germany by authoring 15 articles in Confluence and developing 10 Spotfire dashboards to display GPS and status data for over 100+ trains."
+      "startDate": "2020-09",
+      "endDate": "2022-01",
+      "highlights": [
+        "Developed and maintained 7 dashboards in Spotfire for international train projects across France, England, Turkey, Germany, and Israel, analyzing GPS and status data for 100+ trains, and documented insights in 5 Confluence articles for customer teams.",
+        "Supported the Siemens Energy carve-out by analyzing and determining six-figure software license fees and preparing appropriate licensing for 250+ employees, ensuring compliance and cost-effective allocation."
+      ]
     },
     {
-      "name": "Zollhof Tech Incubator",
-      "position": "Internship – Innovation in Insurtech",
+      "name": "Zollhof Tech Incubator GmbH",
+      "position": "Internship - Innovation in Insurance",
       "location": "Nuremberg, Germany",
-      "startDate": "2020-07-01",
-      "endDate": "2020-09-30",
-      "summary": "Increased potential private insurance sales for HUK-Coburg insurance group by 20% by developing and evaluating a prototype that addresses five key website pain points, facilitating informed decision making."
+      "startDate": "2020-07",
+      "endDate": "2020-09",
+      "highlights": [
+        "Designed and evaluated a clickable prototype for HUK-Coburg Insurance by using design thinking methodologies, addressing five customer pain points, and demonstrated a potential 15% increase in private insurance sales based on feedback and usability testing."
+      ]
     },
     {
       "name": "aConTech GmbH",
-      "position": "Internship – IT-Consulting",
+      "position": "Bachelor Thesis Candidate - IT-Consulting",
       "location": "Fuerth, Germany",
-      "startDate": "2019-11-01",
-      "endDate": "2020-03-31",
-      "summary": "Demonstrated potential cost savings up to 25% for companies with 50+ employees by analyzing a pay-as-you-use software license solution through a configurable Excel and PowerBI simulation tailored to each company’s needs."
+      "startDate": "2019-11",
+      "endDate": "2020-03",
+      "highlights": [
+        "Created a configurable Excel simulation for companies with 50+ employees to analyze pay-as-you-use Microsoft licensing cost, integrating PowerBI to visualize cost comparisons and demonstrate potential savings of up to 25%."
+      ]
     },
     {
       "name": "School of Business and Economics at University of Erlangen-Nuremberg",
-      "position": "Research and Undergraduate Assistant – Statistics, Data Analytics in R, Analysis, Accounting",
+      "position": "Research and Undergraduate Assistant - Statistics, Data Analytics in R, Analysis & Linear Algebra",
       "location": "Nuremberg, Germany",
-      "startDate": "2017-09-01",
-      "endDate": "2021-02-28",
-      "summary": "Improved student learning outcomes in Statistics, Mathematics, Accounting, and Data Analytics in R for over 80 participants each semester by organizing tutorials to accommodate large groups and diverse learning needs."
+      "startDate": "2017-09",
+      "endDate": "2021-02",
+      "highlights": [
+        "Conducted weekly tutorials for 80+ students per semester in Statistics, Linear Algebra, Data Analytics, and Accounting, utilizing live coding in R and exam-focused Q&A sessions, achieving an overall average pass rate of 92% across courses."
+      ]
     }
   ],
   "volunteer": [
