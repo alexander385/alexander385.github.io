@@ -8,7 +8,7 @@ category: volunteering
 related_publications: true
 ---
 
-### The Beginnings of INOPIA Foundation
+### The Beginnings of INOPIA Foundations
 
 The **INOPIA Foundation** started taking shape back in **2019**, when I was already juggling various student and volunteer initiatives—like UNICEF, SNEEP, and the Young Initiative at the Neues Museum Nürnberg. Through these experiences, I realized that I not only wanted to help people but also wanted to apply my **information systems background** in a practical way. Originally, I considered launching a typical startup, but I also saw the potential in establishing a nonprofit—one that could **experiment with new ideas**, focus on real-world impact, and bring creative solutions to social challenges. By early **2020**, after navigating some pandemic-related delays, my friends and I officially founded the Inopia Foundation.
 
