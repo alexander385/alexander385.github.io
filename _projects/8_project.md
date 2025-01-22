@@ -3,7 +3,7 @@ layout: page
 title: Inopia Foundation (my non profit)
 description: an other project with a background image and giscus comments
 img: assets/img/team.jpg
-importance: 2
+importance: 1
 category: volunteering
 related_publications: true
 ---

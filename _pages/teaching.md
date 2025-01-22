@@ -9,24 +9,15 @@ nav_order: 6
 
 ### Exploring Creativity Through Music, Art, and Photography
 
-Creativity has always been an integral part of my life. From playing instruments to creating art and capturing moments through photography, I’ve found various ways to express my ideas, emotions, and passions.
+I believe that every creative pursuit—whether music, art, or photography—offers a unique way to capture the human experience. For me, creativity isn’t just about producing something aesthetically pleasing; it’s about expressing emotions, escaping stress, and living in the moment. These activities also have a positive impact on how I approach problem-solving in my professional life—reminding me to stay open-minded and think outside the box.
 
 ---
 
 #### Composing and Playing Guitar
 
-I started playing guitar in the **7th grade**, and over the years, music has become a significant creative outlet for me. Although personal obligations have limited my time, I continue to practice and compose whenever possible. I primarily play **guitar** and **bass guitar**, using tools like **GarageBand** to record and produce music.
+I started playing **guitar** in the **7th grade**, initially as a way to de-stress from school. Learning to play my favorite rock songs and, later on, forming my own band became an exciting outlet where I could immerse myself in music, share ideas with friends, and channel teenage energy into something positive. My band was called **Mickey Phantom**, and we played an indie-rock style that shaped my early musical influences.
 
-On my **SoundCloud account**, you’ll find some of my compositions—mostly indie-style tracks that reflect my creative journey.
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/guitar.jpg" title="Starting the Ascent of Mount Fuji" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/guitarArt.jpg" title="Handcrafted Guitar Stand" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+Over time, I explored different instruments like **bass guitar** and dabbled in basic **music production** using **GarageBand**. I continue to experiment with new techniques and sounds whenever I can. You can hear some of my compositions—both solo work and collaborations with a friend—on my **SoundCloud**. Even though life gets busier, I always find myself returning to music for the sense of freedom and creativity it provides.
 
 <div class="row justify-content-center pb-5">
     <div class="col-lg-6 col-md-8 col-sm-12 portfolio-item">
@@ -42,11 +33,24 @@ On my **SoundCloud account**, you’ll find some of my compositions—mostly ind
     </div>
 </div>
 
+I’ve also started collecting guitars to accommodate various styles, each one bringing a different character to my music. As part of my creative pursuits, I built my own **guitar hanger/stand**, which you can see in one of the pictures below. This project combined my love for DIY crafting with my passion for music—an intersection that continues to inspire me to try new things, like learning drums or keyboard in the future.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/guitar.jpg" title="Playing Guitar" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/guitarArt.jpg" title="Handcrafted Guitar Stand" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 ---
 
 #### Hiking Adventures: Climbing Mount Fuji
 
-During my time in Japan, I discovered a newfound love for **hiking**, which became more than just a physical activity—it was a test of willpower and perseverance. One of my most memorable experiences was **climbing Mount Fuji**, a journey that challenged me both physically and mentally. Despite battling altitude sickness, I reached the summit, proving to myself the power of determination.
+My time in **Japan** introduced me to **hiking**, an activity I initially never thought I’d enjoy. Yet, exploring the outdoors proved to be a powerful way to test my **willpower and perseverance** while reconnecting with nature.
+
+A highlight of this journey was **climbing Mount Fuji**—standing at around 3,760 meters in elevation. The ascent was challenging, both physically and mentally, compounded by **altitude sickness** that reminded me of how small and fragile we are compared to nature’s grandeur. Still, reaching the summit felt like a profound accomplishment, renewing my determination to tackle new challenges and push beyond my comfort zone. I hope to set out on more hikes in the future, continuing to explore the world’s diverse landscapes.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -60,14 +64,16 @@ During my time in Japan, I discovered a newfound love for **hiking**, which beca
     </div>
 </div>
 <div class="caption">
-    Climbing Mount Fuji was an unforgettable experience, filled with challenges and rewards.
+    Climbing Mount Fuji was an unforgettable experience—both humbling and exhilarating.
 </div>
 
 ---
 
 #### Painting and Crafting
 
-Art has always been a way for me to express thoughts, hopes, and beliefs. Whether it’s through **painting**, **drawing**, or crafting, I find immense joy in creating something meaningful. One of my favorite projects was building a **Guitar Stand** (Gitarrenhalter) and a **charity chair**, **Platz für Helfer**.
+Art has been a constant companion in my life, manifesting in various forms like **painting**, **drawing**, and more recently, **street art** and **digital art** experiments. These creative outlets allow me to explore and express my thoughts, hopes, and beliefs.
+
+One unique project was crafting a **Guitar Stand**, blending my passion for music with my love of hands-on building. Another, more collaborative endeavor, was the **Platz für Helfer (Place for Helpers)** chair—a **charity chair** that I designed alongside a friend. Inspired by our cultural backgrounds and the urge to promote solidarity, we used symbolic elements like a **Granatapfel** (pomegranate) and references to Ukraine. This chair was gifted to the founder of the Nordkorps in Nuremberg, complete with a QR code for visitors to make donations—supporting causes such as rebuilding efforts and fighting against anti-Semitism.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -78,11 +84,15 @@ Art has always been a way for me to express thoughts, hopes, and beliefs. Whethe
     </div>
 </div>
 
+These projects underscore how creativity can serve a greater purpose—whether that’s bringing music to life or supporting meaningful causes. I’m eager to explore new techniques, mediums, and collaborations that fuse art, community, and social impact.
+
 ---
 
 #### Capturing the World Through a Lens
 
-Photography has been a passion of mine since I was younger, but I only recently invested in a good camera to fully embrace this interest. During my time in Japan, I explored photography extensively, capturing landscapes, people, and moments that resonated with me.
+Photography is another passion that has grown over time. Although I’ve enjoyed taking photos since I was younger, I only recently invested in a better camera to fully embrace the art of capturing moments and emotions.
+
+During my stay in Japan, I used photography to preserve the vibrant landscapes, cultural nuances, and everyday scenes that resonated with me. Whether it’s photographing bustling city streets or tranquil countryside vistas, each shot reflects a desire to **pause time** and appreciate life’s fleeting beauty.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -103,7 +113,9 @@ Photography has been a passion of mine since I was younger, but I only recently 
 
 ### Feedback and Reflections
 
-Creativity continues to be an essential part of my life, allowing me to explore and express my passions. If you have any feedback or suggestions about my work—whether it’s music, art, or photography—I’d love to hear from you!
+These creative pursuits—music, art, photography, and even challenging physical endeavors like hiking—are about more than skill-building. They’re my way of embracing the present moment, exploring new perspectives, and sharing meaningful experiences with others. I hope they inspire you to find your own outlets for imagination and self-expression.
+
+If you have any feedback or suggestions about my work—whether it’s music, art, or photography—please let me know! I’m always open to new ideas and collaborations, and I plan to keep adding more content and projects here in the future.
 
 ---
 
