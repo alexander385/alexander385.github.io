@@ -1,4 +1,5 @@
 User-agent: *
 Disallow: /
+Noindex: /
 
 Sitemap: https://alexander385.github.io/sitemap.xml
