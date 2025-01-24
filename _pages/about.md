@@ -2,7 +2,7 @@
 layout: about
 title: main page
 permalink: /
-subtitle: <a href='#'>Constant effort is life's greatest shortcut." </a>. Coach Kamogawa
+subtitle: <a href='#'>Constant effort is life's greatest shortcut. </a> Coach Kamogawa
 
 profile:
   align: right
