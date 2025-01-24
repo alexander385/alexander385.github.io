@@ -5,7 +5,7 @@ description: with background image
 img: assets/img/mask.jpg
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
 ### Volunteering at UNICEF Hochschulgruppe Nürnberg
