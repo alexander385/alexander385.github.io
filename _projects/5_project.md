@@ -1,10 +1,10 @@
 ---
 layout: page
 title: BDVB - Network for Economists and Business Administrators
-description: a project with a background image
 img: assets/img/bdvb.jpg
 importance: 4
-category: volunteer
+category: work
+related_publications: false
 ---
 
 ### Volunteering at BDVB Hochschulgruppe Nürnberg
