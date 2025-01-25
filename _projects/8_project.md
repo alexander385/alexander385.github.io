@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Inopia Foundation (my non profit)
+title: Inopia Foundation - The Nonprofit I Co-Founded
 img: assets/img/team.jpg
-importance: 1
+importance: 5
 category: volunteering
 related_publications: false
 ---
