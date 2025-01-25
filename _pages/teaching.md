@@ -93,7 +93,7 @@ Photography is another passion that has grown over time. Although I’ve enjoyed
 
 During my stay in Japan, I used photography to preserve the vibrant landscapes, cultural nuances, and everyday scenes that resonated with me. Whether it’s photographing bustling city streets or tranquil countryside vistas, each shot reflects a desire to **pause time** and appreciate life’s fleeting beauty.
 
-<!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/f75534943bd55e6caccab2820e42c37d.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+<div class="embedsocial-hashtag" data-ref="55d45a4e3b5e8067f685c16be384a30a33892ac4" data-lazyload="yes"> <a class="feed-powered-by-es feed-powered-by-es-feed-img es-widget-branding" href="https://embedsocial.com/social-media-aggregator/" target="_blank" title="Instagram widget"> <img src="https://embedsocial.com/cdn/icon/embedsocial-logo.webp" alt="EmbedSocial"> <div class="es-widget-branding-text">Instagram widget</div> </a> </div> <script> (function(d, s, id) { var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/cdn/ht.js"; d.getElementsByTagName("head")[0].appendChild(js); }(document, "script", "EmbedSocialHashtagScript")); </script>
 
 ---
 
