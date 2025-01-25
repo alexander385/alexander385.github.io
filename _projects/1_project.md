@@ -1,7 +1,6 @@
 ---
 layout: page
 title: UNICEF
-description: with background image
 img: assets/img/mask.jpg
 importance: 1
 category: work
