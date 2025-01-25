@@ -93,20 +93,7 @@ Photography is another passion that has grown over time. Although I’ve enjoyed
 
 During my stay in Japan, I used photography to preserve the vibrant landscapes, cultural nuances, and everyday scenes that resonated with me. Whether it’s photographing bustling city streets or tranquil countryside vistas, each shot reflects a desire to **pause time** and appreciate life’s fleeting beauty.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/photo1.jpg" title="Landscape in Japan" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/photo2.jpg" title="Sunset View" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/photo3.jpg" title="Street Photography in Kyoto" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    A gallery showcasing some of my favorite photography work, capturing diverse landscapes and moments.
-</div>
+<!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/f75534943bd55e6caccab2820e42c37d.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
 
 ---
 
