@@ -1,80 +1,51 @@
 ---
 layout: page
-title: project 5
+title: BDVB - Network for Economists and Business Administrators
 description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+img: assets/img/bdvb.jpg
+importance: 4
+category: volunteer
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+### Volunteering at BDVB Hochschulgruppe Nürnberg
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+From **May 2019 to December 2019**, I was a founding member of the **BDVB Hochschulgruppe Nürnberg**, a student-led initiative under the **Bundesverband Deutscher Volks- und Betriebswirte (BDVB)**. This federal association serves as a networking and professional development platform for German economists and business administrators, representing their interests in economic discussions and facilitating career opportunities.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Our initiative brought together students from the **Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)** and the **Technische Hochschule Nürnberg**, creating a valuable platform to connect with professionals, academics, and fellow students. We aimed to help students navigate their career paths through career consulting, workshops, and industry events.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/bdvb.jpg" title="The founding team" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
+
+#### Career Services and Professional Development
+
+One of our primary focuses was offering **career consulting** to students nearing the end of their studies. Through a variety of **seminars, webinars, and networking events**, we provided valuable insights into job applications, career planning, and industry trends.
+
+Key events we organized included:
+
+- **KPMG Case Study (November 2019):**  
+  A hands-on experience in audit and consulting, offering valuable insights into the industry. The discussions with professionals provided a clear perspective on career paths in finance and accounting.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/kpmg.jpg" title="KPMG Case Study Session" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+- **Marketing Workshop at Sixt:**  
+ A deep dive into marketing strategies at an international company, featuring interactive case studies and networking opportunities.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/sixt.jpg" title="Sixt Marketing Day" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+#### Challenges and Growth
 
-{% raw %}
+Starting the BDVB Hochschulgruppe was both exciting and challenging. Coordinating events, managing outreach, and balancing academic responsibilities required dedication and teamwork. However, the impact on students seeking career guidance and opportunities made it all worthwhile.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+Unfortunately, the COVID-19 pandemic disrupted many of our planned activities, and as our academic paths evolved, my fellow students and I decided to step down from the group. Nevertheless, being a **founding member** of this initiative remains a source of pride, and I hope the group continues to grow and support students in their career journeys.
 
-{% endraw %}
+Reflecting on my time with BDVB, I value the connections made and the professional exposure gained. The experience of creating something from scratch and witnessing its growth taught me invaluable lessons in leadership, teamwork, and initiative.

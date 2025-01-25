@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Inopia Foundation (my non profit)
-description: yolo
 img: assets/img/team.jpg
 importance: 1
 category: work

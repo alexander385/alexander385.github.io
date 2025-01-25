@@ -1,11 +1,10 @@
 ---
 layout: page
 title: Sneep e.V.
-description: a project with a background image and giscus comments
 img: assets/img/sneep.jpg
 importance: 2
 category: work
-related_publications: true
+related_publications: false
 ---
 
 ### Volunteering at SNEEP
