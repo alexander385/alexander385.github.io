@@ -2,6 +2,7 @@
 layout: about
 title: main page
 permalink: /
+latest_posts: false
 subtitle: <a href='#'>Constant effort is life's greatest shortcut. </a> - Genji Kamogawa
 
 profile:
