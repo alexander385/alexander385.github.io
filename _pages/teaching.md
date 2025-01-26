@@ -51,27 +51,67 @@ My time in **Japan** introduced me to **hiking**, an activity I initially never 
 
 A highlight of this journey was **climbing Mount Fuji**—standing at around 3,760 meters in elevation. The ascent was challenging, both physically and mentally, compounded by **altitude sickness** that reminded me of how small and fragile we are compared to nature’s grandeur. Still, reaching the summit felt like a profound accomplishment, renewing my determination to tackle new challenges and push beyond my comfort zone. I hope to set out on more hikes in the future, continuing to explore the world’s diverse landscapes.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/ascend.jpg" title="Starting the Ascent of Mount Fuji" class="img-fluid rounded z-depth-1" %}
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-4 mt-3">
+            {% include figure.liquid 
+                loading="lazy" 
+                path="assets/img/ascend.jpg" 
+                title="Starting the Ascent of Mount Fuji" 
+                class="img-fluid rounded shadow-sm"
+                alt="Starting the Ascent of Mount Fuji"
+            %}
+        </div>
+        <div class="col-sm-12 col-md-4 mt-3">
+            {% include figure.liquid 
+                loading="lazy" 
+                path="assets/img/me.jpg" 
+                title="Midway Through the Climb" 
+                class="img-fluid rounded shadow-sm"
+                alt="Midway Through the Climb"
+            %}
+        </div>
+        <div class="col-sm-12 col-md-4 mt-3">
+            {% include figure.liquid 
+                loading="lazy" 
+                path="assets/img/early.jpg" 
+                title="Reaching the Summit" 
+                class="img-fluid rounded shadow-sm"
+                alt="Reaching the Summit"
+            %}
+        </div>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/me.jpg" title="Midway Through the Climb" class="img-fluid rounded z-depth-1" %}
+
+    <div class="row">
+        <div class="col-sm-12 col-md-4 mt-3">
+            {% include figure.liquid
+                loading="lazy"
+                path="assets/img/crater.jpg"
+                title="View of the Crater"
+                class="img-fluid rounded shadow-sm"
+                alt="View of the Crater"
+            %}
+        </div>
+        <div class="col-sm-12 col-md-4 mt-3">
+            {% include figure.liquid
+                loading="lazy"
+                path="assets/img/down.jpg"
+                title="Descending Mount Fuji"
+                class="img-fluid rounded shadow-sm"
+                alt="Descending Mount Fuji"
+            %}
+        </div>
+        <div class="col-sm-12 col-md-4 mt-3">
+            {% include figure.liquid
+                loading="lazy"
+                path="assets/img/sunset.jpg"
+                title="Sunset from the Summit"
+                class="img-fluid rounded shadow-sm"
+                alt="Sunset from the Summit"
+            %}
+        </div>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/early.jpg" title="Reaching the Summit" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/crater.jpg" title="Starting the Ascent of Mount Fuji" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/down.jpg" title="Midway Through the Climb" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/sunset.jpg" title="Reaching the Summit" class="img-fluid rounded z-depth-1" %}
-    </div>
+
 </div>
 <div class="caption">
     Climbing Mount Fuji was an unforgettable experience—both humbling and exhilarating.
