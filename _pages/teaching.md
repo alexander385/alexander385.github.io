@@ -53,68 +53,19 @@ A highlight of this journey was **climbing Mount Fuji**—standing at around 3,7
 
 <div class="container">
     <div class="row">
-        <div class="col-sm-12 col-md-4 mt-3">
-            {% include figure.liquid 
-                loading="lazy" 
-                path="assets/img/ascend.jpg" 
-                title="Starting the Ascent of Mount Fuji" 
-                class="img-fluid rounded shadow-sm"
-                alt="Starting the Ascent of Mount Fuji"
-            %}
+        <div class="col-md-4 col-sm-12 mt-3">
+            <img src="assets/img/ascend.jpg" alt="Starting the Ascent of Mount Fuji" class="img-fluid rounded shadow-sm">
+            <p class="text-center">Starting the Ascent of Mount Fuji</p>
         </div>
-        <div class="col-sm-12 col-md-4 mt-3">
-            {% include figure.liquid 
-                loading="lazy" 
-                path="assets/img/me.jpg" 
-                title="Midway Through the Climb" 
-                class="img-fluid rounded shadow-sm"
-                alt="Midway Through the Climb"
-            %}
+        <div class="col-md-4 col-sm-12 mt-3">
+            <img src="assets/img/me.jpg" alt="Midway Through the Climb" class="img-fluid rounded shadow-sm">
+            <p class="text-center">Midway Through the Climb</p>
         </div>
-        <div class="col-sm-12 col-md-4 mt-3">
-            {% include figure.liquid 
-                loading="lazy" 
-                path="assets/img/early.jpg" 
-                title="Reaching the Summit" 
-                class="img-fluid rounded shadow-sm"
-                alt="Reaching the Summit"
-            %}
+        <div class="col-md-4 col-sm-12 mt-3">
+            <img src="assets/img/early.jpg" alt="Reaching the Summit" class="img-fluid rounded shadow-sm">
+            <p class="text-center">Reaching the Summit</p>
         </div>
     </div>
-
-    <div class="row">
-        <div class="col-sm-12 col-md-4 mt-3">
-            {% include figure.liquid
-                loading="lazy"
-                path="assets/img/crater.jpg"
-                title="View of the Crater"
-                class="img-fluid rounded shadow-sm"
-                alt="View of the Crater"
-            %}
-        </div>
-        <div class="col-sm-12 col-md-4 mt-3">
-            {% include figure.liquid
-                loading="lazy"
-                path="assets/img/down.jpg"
-                title="Descending Mount Fuji"
-                class="img-fluid rounded shadow-sm"
-                alt="Descending Mount Fuji"
-            %}
-        </div>
-        <div class="col-sm-12 col-md-4 mt-3">
-            {% include figure.liquid
-                loading="lazy"
-                path="assets/img/sunset.jpg"
-                title="Sunset from the Summit"
-                class="img-fluid rounded shadow-sm"
-                alt="Sunset from the Summit"
-            %}
-        </div>
-    </div>
-
-</div>
-<div class="caption">
-    Climbing Mount Fuji was an unforgettable experience—both humbling and exhilarating.
 </div>
 
 ---

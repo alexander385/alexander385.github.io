@@ -2,8 +2,8 @@
 layout: page
 title: Inopia Foundation - The Nonprofit I Co-Founded
 img: assets/img/team.jpg
-importance: 5
-category: volunteering
+importance: 1
+category: work
 related_publications: false
 ---
 
