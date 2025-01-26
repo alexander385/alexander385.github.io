@@ -53,13 +53,24 @@ A highlight of this journey was **climbing Mount Fuji**—standing at around 3,7
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/climb1.jpg" title="Starting the Ascent of Mount Fuji" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/ascend.jpg" title="Starting the Ascent of Mount Fuji" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/climb2.jpg" title="Midway Through the Climb" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/me.jpg" title="Midway Through the Climb" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/night1.jpg" title="Reaching the Summit" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/early.jpg" title="Reaching the Summit" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/crater.jpg" title="Starting the Ascent of Mount Fuji" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/down.jpg" title="Midway Through the Climb" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/sunset.jpg" title="Reaching the Summit" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

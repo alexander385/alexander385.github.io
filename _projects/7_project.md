@@ -3,7 +3,7 @@ layout: page
 title: Inopia Foundation (my non profit)
 img: assets/img/team.jpg
 importance: 1
-category: work
+category: volunteering
 related_publications: false
 ---
 
