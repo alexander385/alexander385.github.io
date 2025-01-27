@@ -61,10 +61,10 @@ A highlight of this journey was **climbing Mount Fuji**—standing at around 3,7
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/summit.jpg" title="Playing Guitar" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/climb1.jpg" title="Playing Guitar" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/sunset.jpg" title="Handcrafted Guitar Stand" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/crater.jpg" title="Handcrafted Guitar Stand" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
