@@ -51,20 +51,20 @@ My time in **Japan** introduced me to **hiking**, an activity I initially never 
 
 A highlight of this journey was **climbing Mount Fuji**—standing at around 3,760 meters in elevation. The ascent was challenging, both physically and mentally, compounded by **altitude sickness** that reminded me of how small and fragile we are compared to nature’s grandeur. Still, reaching the summit felt like a profound accomplishment, renewing my determination to tackle new challenges and push beyond my comfort zone. I hope to set out on more hikes in the future, continuing to explore the world’s diverse landscapes.
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-4 col-sm-12 mt-3">
-            <img src="assets/img/ascend.jpg" alt="Starting the Ascent of Mount Fuji" class="img-fluid rounded shadow-sm">
-            <p class="text-center">Starting the Ascent of Mount Fuji</p>
-        </div>
-        <div class="col-md-4 col-sm-12 mt-3">
-            <img src="assets/img/me.jpg" alt="Midway Through the Climb" class="img-fluid rounded shadow-sm">
-            <p class="text-center">Midway Through the Climb</p>
-        </div>
-        <div class="col-md-4 col-sm-12 mt-3">
-            <img src="assets/img/early.jpg" alt="Reaching the Summit" class="img-fluid rounded shadow-sm">
-            <p class="text-center">Reaching the Summit</p>
-        </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/ascend.jpg" title="Playing Guitar" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/me.jpg" title="Handcrafted Guitar Stand" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/summit.jpg" title="Playing Guitar" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/sunset.jpg" title="Handcrafted Guitar Stand" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
