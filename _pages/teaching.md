@@ -45,31 +45,6 @@ I’ve also started collecting guitars to accommodate various styles, each one b
 
 ---
 
-#### Hiking Adventures: Climbing Mount Fuji
-
-My time in **Japan** introduced me to **hiking**, an activity I initially never thought I’d enjoy. Yet, exploring the outdoors proved to be a powerful way to test my **willpower and perseverance** while reconnecting with nature.
-
-A highlight of this journey was **climbing Mount Fuji**—standing at around 3,760 meters in elevation. The ascent was challenging, both physically and mentally, compounded by **altitude sickness** that reminded me of how small and fragile we are compared to nature’s grandeur. Still, reaching the summit felt like a profound accomplishment, renewing my determination to tackle new challenges and push beyond my comfort zone. I hope to set out on more hikes in the future, continuing to explore the world’s diverse landscapes.
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/ascend.jpg" title="Playing Guitar" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/me.jpg" title="Handcrafted Guitar Stand" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/climb1.jpg" title="Playing Guitar" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/crater.jpg" title="Handcrafted Guitar Stand" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
----
-
 #### Painting and Crafting
 
 Art has been a constant companion in my life, manifesting in various forms like **painting**, **drawing**, and more recently, **street art** and **digital art** experiments. These creative outlets allow me to explore and express my thoughts, hopes, and beliefs.
